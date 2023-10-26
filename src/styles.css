@@ -1,3 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.service-card:nth-child(2n) > div{
+  display: none;
+}
