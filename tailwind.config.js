@@ -7,6 +7,10 @@ module.exports = {
         "service-gradiend":"linear-gradient(180deg, #252527 30.75%, #0186EF00 615.25%)",
         "service-bg":"linear-gradient(0deg, #141415 0%, #141415 100%), #FFF"
       },
+      boxShadow: {
+        'custom': '0px 0px 10px 2px #0186EF'
+      }
+
     },
   },
   plugins: [],
