@@ -10,11 +10,11 @@
   <link rel="stylesheet" href="./css/styles.css">
 </head>
 
-<body class="bg-[#141415] flex flex-col min-h-screen">
+<body class="bg-[#1D1D1D]">
 
   <!-- header -->
-  <header class="relative top-0 left-0 right-0 z-50 w-full pt-9 pb-7 bg-[rgba(255,255,255,0.14)]">
-    <div class="max-w-[1282px] mx-auto px-5 flex items-center relative z-50">
+  <header class="relative top-0 left-0 right-0 z-50 w-full pt-9 pb-7 bg-[rgba(255,255,255,0.04)]">
+    <div class="max-w-[1282px] mx-auto px-5 flex items-center">
       <a href="./index.html" class="flex">
         <svg xmlns="http://www.w3.org/2000/svg" width="99" height="32" viewBox="0 0 99 32" fill="none">
           <g clip-path="url(#clip0_129_4648)">
@@ -93,11 +93,11 @@
         </svg>
       </a>
       <div class="flex items-center ml-auto gap-10">
-        <ul class="flex gap-10 items-center mr-16">
+        <ul class="flex gap-10 items-center">
           <li><a class="text-white text-base font-semibold" href="./employees.html">Hodimlar</a></li>
           <li><a class="text-white text-base font-semibold" href="#">Vakansiya</a></li>
           <li><a class="text-white text-base font-semibold" href="./services.html">Xizmatlar</a></li>
-          <li><a class="text-[#0086EE] text-base font-semibold" href="./news.html">Yangiliklar</a></li>
+          <li><a class="text-white text-base font-semibold" href="./news.html">Yangiliklar</a></li>
         </ul>
         <a class="text-[#D9FFFF] text-sm font-bold  bg-[#0086EE] rounded-lg py-2.5 px-12 "
           style="box-shadow: 0px 1px 14px -4px #016079;" href="tel:+998935533352">Bog’lanish</a>
@@ -111,33 +111,321 @@
         </button>
       </div>
     </div>
-    <div class="blur-[57px] bg-[rgba(255,255,255,0.04)] absolute top-0 left-0 w-full h-full z-40"></div>
+    <div class="blur-3xl bg-[rgba(255,255,255,0.13)] absolute top-0 left-0 w-full"></div>
   </header>
 
+
+  <!-- hero  -->
+  <section class="bg-cover pt-28 pb-[512px]" style="background-image:url(./img/hero-bg.png);">
+    <div class="max-w-[1282px] mx-auto px-5">
+      <h2 class="text-white text-3xl font-semibold uppercase mb-8">IT mutaxassislaridan qulayliklarni <br>
+        taklif qilamiz</h2>
+      <a href="#" style="box-shadow: 0px 1px 14px -4px #0286EF;"
+        class="text-white font-bold text-sm bg-[#0186EF]  rounded-lg py-3 px-16">Batafsil</a>
+    </div>
+  </section>
+
+
+
+  <section class="py-9">
+    <div class="relative max-w-[1282px] mx-auto px-5 z-10">
+      <div class="absolute right-14 -top-[226px]">
+        <div class="relative w-[317px] h-[317px] flex items-center justify-center">
+          <div class="w-full h-full absolute animate-spin  text-2xl font-bold text-white uppercase"
+            style="animation-duration:20s">
+            <p id="circle-text">ahil jamoa ahil jamoa ahil jamoa ahil jamoa </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <marquee class="text-[#0086EE] text-xl font-semibold" behavior="" direction="">Bizning kompaniyamiz IT sohasida
+      yuqori malakaga ega ekspertlar to'plamidir</marquee>
+
+  </section>
+
+
+  <!-- news section -->
   <section class="bg-[#141415] pt-16 pb-16">
     <div class="max-w-[1282px] mx-auto px-5">
-      <div
+      <h2 class="text-4xl font-bold text-white mb-8">Yangiliklar</h2>
+      <div class="grid grid-cols-2 gap-5">
+        <a href="#"
           style="background-image:  linear-gradient(180deg, rgba(0, 0, 0, 0.40) 0%, rgba(2, 134, 239, 0.40) 341.42%) , url(./img/news/news-bg-card.png)"
-          class="card-hover bg-cover flex flex-col items-center text-center pt-8 pb-[287px] mb-8">
-          <div class="flex justify-start pl-8 mb-[136px] w-full">
-            <img src="./img/logo.svg" alt="logo">
-          </div>
+          class="card-hover bg-cover flex flex-col items-center text-center pt-16 pb-[364px]">
+          <img class="mb-[105px]" src="./img/ipro-logo.svg" alt="logo">
 
-          <h3 class="text-white text-[64px] font-semibold"><span class="text-[#FFC700]">Ochilish </span>
-            <span class="block uppercase">MAROSIMIGA</span>
-            <span class="text-[48px] text-[#FFC700]">taklif qilamiz</span> !
+          <h3 class="text-white text-[40px] font-semibold"><span class="text-[32px] text-[#FFC700]">Ochilish </span>
+            <span class="block">MAROSIMIGA</span>
+            <span class="text-[32px] text-[#FFC700]">taklif qilamiz</span> !
           </h3>
+        </a>
+        <div class="grid grid-cols-2 gap-x-5 gap-y-[22px]">
+          <a href="#" class="card-hover bg-[#252527]">
+            <img class="w-full h-[184px] object-cover" src="./img/news/img-1.png" alt="news-img">
+            <div class="px-3 pt-5 pb-10">
+              <time class="text-sm text-white font-bold mb-2">10.11.2023</time>
+              <p class="text-white text-sm ">Internetga 200 mingdan ortiq o‘zbekistonlik foydalanuvchilarning
+                ma’lumotlari sizdirildi. Kun.uz bilan gaplashgan mutaxassislarga ko‘ra, sizdirilgan parollar – OneID,
+                DTM,
+                ko‘plab</p>
+            </div>
+          </a>
+          <a href="#" class="card-hover bg-[#252527]">
+            <img class="w-full h-[184px] object-cover" src="./img/news/img-2.png" alt="news-img">
+            <div class="px-3 pt-5 pb-10">
+              <time class="text-sm text-white font-bold mb-2">10.11.2023</time>
+              <p class="text-white text-sm ">Internetga 200 mingdan ortiq o‘zbekistonlik foydalanuvchilarning
+                ma’lumotlari sizdirildi. Kun.uz bilan gaplashgan mutaxassislarga ko‘ra, sizdirilgan parollar – OneID,
+                DTM,
+                ko‘plab</p>
+            </div>
+          </a>
+          <a href="#" class="card-hover bg-[#252527]">
+            <img class="w-full h-[184px] object-cover" src="./img/news/img-3.png" alt="news-img">
+            <div class="px-3 pt-5 pb-10">
+              <time class="text-sm text-white font-bold mb-2">10.11.2023</time>
+              <p class="text-white text-sm ">Internetga 200 mingdan ortiq o‘zbekistonlik foydalanuvchilarning
+                ma’lumotlari sizdirildi. Kun.uz bilan gaplashgan mutaxassislarga ko‘ra, sizdirilgan parollar – OneID,
+                DTM,
+                ko‘plab</p>
+            </div>
+          </a>
+          <a href="#" class="card-hover bg-[#252527]">
+            <img class="w-full h-[184px] object-cover" src="./img/news/img-4.png" alt="news-img">
+            <div class="px-3 pt-5 pb-10">
+              <time class="text-sm text-white font-bold mb-2">10.11.2023</time>
+              <p class="text-white text-sm ">Internetga 200 mingdan ortiq o‘zbekistonlik foydalanuvchilarning
+                ma’lumotlari sizdirildi. Kun.uz bilan gaplashgan mutaxassislarga ko‘ra, sizdirilgan parollar – OneID,
+                DTM,
+                ko‘plab</p>
+            </div>
+          </a>
         </div>
-        <time class="text-white text-3xl font-bold mb-2.5">10.11.2023</time>
-        <p class="text-white text-xl leading-[36px]">Internetga 200 mingdan ortiq o‘zbekistonlik foydalanuvchilarning ma’lumotlari sizdirildi. Kun.uz bilan gaplashgan mutaxassislarga ko‘ra, sizdirilgan parollar – OneID, DTM, ko‘plab Internetga 200 mingdan ortiq o‘zbekistonlik foydalanuvchilarning ma’lumotlari sizdirildi. Kun.uz bilan gaplashgan mutaxassislarga ko‘ra, sizdirilgan parollar – OneID, DTM, 
-          ko‘plabInternetga 200 mingdan ortiq o‘zbekistonlik foydalanuvchilarning ma’lumotlari sizdirildi. Kun.uz bilan gaplashgan mutaxassislarga ko‘ra, sizdirilgan parollar – OneID, DTM, 
-          </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- hamkorlar  -->
+  <section class="py-16 bg-[#141415]" hidden>
+    <h2 class="hidden">hamkorlar</h2>
+    <div class="">
+      <div class="">
+        <h3 class="text-3xl font-normal text-white">Hamkorlar</h3>
+        <b class="text-[40px] font-bold text-white">1028</b>
+      </div>
 
     </div>
   </section>
-  
+
+  <!-- About  -->
+  <section class="pb-28 pt-16 bg-[#1D1D1D] overflow-hidden" hidden>
+    <div class="max-w-[1282px] mx-auto px-5 relative">
+      <div class="max-w-[560px]">
+        <h2 class="text-4xl font-bold text-white mb-8">Biz haqimizda</h2>
+        <p class="text-white text-2xl leading-8 mb-8">Biz - innovatsion yondashuvlar markazimiz. Biznesingizni oshirish
+          uchun sizga eng yaxshi tizimli xizmatlarni taqdim etamiz.
+          Biznesda yaratiladigan imkoniyatlar bilan ta'minlaymiz.</p>
+        <a href="#" class="inline-flex group items-center text-[#0286EF]">
+          <span class="group-hover:mr-3 transition-all">Batafsil</span>
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+            <g opacity="0.99">
+              <path d="M16.17 13L12.59 16.59L14 18L20 12L14 6L12.59 7.41L16.17 11H4V13H16.17Z" fill="#0286EF" />
+            </g>
+          </svg>
+        </a>
+      </div>
+
+      <div class="w-[768px] h-[768px] rounded-full absolute -right-5 -top-[596px]" style="box-shadow: 0px 0px 59px 6px rgba(2, 134, 239, 0.20);
+      ">
+        <div
+          class="absolute bottom-20 left-6  overflow-hidden rounded bg-[rgba(255,255,255,0.13)] max-w-[270px] flex gap-5 py-4 px-5 ">
+          <svg class="flex-shrink-0" xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50"
+            fill="none">
+            <path
+              d="M18.371 41.2062L5.11279 27.9479L11.0086 22.0521L18.371 29.4353L38.9917 8.79384L44.8875 14.6897L18.371 41.2062Z"
+              fill="#0286F0" />
+          </svg>
+          <p class="text-xs text-white ">Muammo va talablarni
+            yechish uchun - bizga bir qadam tashlashingiz kifoya!</p>
+          <div class="absolute top-0 left-0 right-0 bottom-0 w-full h-full blur-md bg-[rgba(255,255,255,0.13)]">
+
+          </div>
+        </div>
+        <div
+          class="absolute bottom-20 right-6  overflow-hidden rounded bg-[rgba(255,255,255,0.13)] max-w-[270px] flex gap-5 py-4 px-5 ">
+
+          <svg class="flex-shrink-0" xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50"
+            fill="none">
+            <path
+              d="M43.75 43.75H37.5V22.9167H43.75V43.75ZM33.3333 43.75H27.0833V16.6667H33.3333V43.75ZM22.9167 43.75H16.6667V10.4167H22.9167V43.75ZM12.5 43.75H6.25V27.0833H12.5V43.75Z"
+              fill="#0286F0" />
+          </svg>
+          <p class="text-xs text-white ">Xizmatlarimizning asosiy mazmuni - o'zaro ishonch va muvaffaqiyat.</p>
+          <div class="absolute top-0 left-0 right-0 bottom-0 w-full h-full blur-md bg-[rgba(255,255,255,0.13)]">
+
+          </div>
+        </div>
+        <div
+          class="absolute -bottom-14 left-1/2 -translate-x-1/2 overflow-hidden rounded bg-[rgba(255,255,255,0.13)] max-w-[270px] flex gap-5 py-4 px-5 ">
+          <svg class="flex-shrink-0" xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50"
+            fill="none">
+            <path
+              d="M27.0831 27.9458C27.4737 28.3366 28.0035 28.5561 28.556 28.5562H29.7769C30.3293 28.5561 30.8592 28.3366 31.2498 27.9458L41.056 18.1396L45.8331 22.9167V10.4167H33.3331L38.1102 15.1937L29.1664 24.1375L22.9164 17.8875C22.5258 17.4968 21.996 17.2772 21.4435 17.2771H20.2227C19.6702 17.2772 19.1404 17.4968 18.7498 17.8875L4.77686 31.8604L7.72269 34.8062L20.8331 21.6958L27.0831 27.9458Z"
+              fill="#0286F0" />
+          </svg>
+          <p class="text-xs text-white ">Xizmatlarimizning asosiy mazmuni - o'zaro ishonch va muvaffaqiyat.</p>
+          <div class="absolute top-0 left-0 right-0 bottom-0 w-full h-full blur-md bg-[rgba(255,255,255,0.13)]">
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- service  -->
+  <section class="pt-16 pb-32 bg-[#141415]" hidden>
+    <div class="max-w-[1282px] mx-auto px-5">
+      <h2 class="text-white text-3xl leading-normal font-bold mb-8">Xizmatlarimiz</h2>
+      <div class="grid grid-cols-3 gap-5 mb-6">
+        <div class="service-card relative rounded-lg p-8 pb-14 bg-service-gradiend overflow-hidden">
+          <h3 class="relative z-10 text-xl text-white font-bold mb-5">Ux&UI dizayn</h3>
+          <p class="relative z-10 text-[#D6D6D6] text-sm leading-snug">Loyiha Mindmapini ishlab chiqish va ushbu
+            arxetektura asosida optimal yechimga ega dizaynlarni chizish </p>
+          <div class="absolute top-0 left-0 right-0 h-full"><img class="w-full h-full" src="./img/service-card.png"
+              alt="service fradiend"></div>
+        </div>
+        <div class="service-card relative rounded-lg p-8 pb-14 bg-service-gradiend overflow-hidden">
+          <h3 class="relative z-10 text-xl text-white font-bold mb-5">SMM</h3>
+          <p class="relative z-10 text-[#D6D6D6] text-sm leading-snug">Ijtimoiy media boshqaruv usullari orqali internet
+            platformalarida reklama qilish </p>
+          <div class="absolute top-0 left-0 right-0 h-full"><img class="w-full h-full" src="./img/service-card.png"
+              alt="service fradiend"></div>
+        </div>
+        <div class="service-card relative rounded-lg p-8 pb-14 bg-service-gradiend overflow-hidden">
+          <h3 class="relative z-10 text-xl text-white font-bold mb-5">Grafik dizayn</h3>
+          <p class="relative z-10 text-[#D6D6D6] text-sm leading-snug">Tasvirlar, grafikalar, va matnlar orqali
+            axborotni yaratishda va o'zlashtirishda ishlatiluvchi san'at va texnologiyalarni jamlagan jarayon </p>
+          <div class="absolute top-0 left-0 right-0 h-full"><img class="w-full h-full" src="./img/service-card.png"
+              alt="service fradiend"></div>
+        </div>
+        <div class="service-card relative rounded-lg p-8 pb-14 bg-service-gradiend overflow-hidden">
+          <h3 class="relative z-10 text-xl text-white font-bold mb-5">MOUSHEN Dizayn</h3>
+          <p class="relative z-10 text-[#D6D6D6] text-sm leading-snug">Muhiti va innovatsiyani grafik dizaynda jamlab
+            beruvchi yaratuvchi dasturlash va dizayn kompaniyasi </p>
+          <div class="absolute top-0 left-0 right-0 h-full"><img class="w-full h-full" src="./img/service-card.png"
+              alt="service fradiend"></div>
+        </div>
+        <div class="service-card relative rounded-lg p-8 pb-14 bg-service-gradiend overflow-hidden">
+          <h3 class="relative z-10 text-xl text-white font-bold mb-5">Videomontaj</h3>
+          <p class="relative z-10 text-[#D6D6D6] text-sm leading-snug">Videolarni tahrirlash, qo'llab-quvvatlash, va
+            birlashtirishda ishlatiladigan texnika </p>
+          <div class="absolute top-0 left-0 right-0 h-full"><img class="w-full h-full" src="./img/service-card.png"
+              alt="service fradiend"></div>
+        </div>
+        <div class="service-card relative rounded-lg p-8 pb-14 bg-service-gradiend overflow-hidden">
+          <h3 class="relative z-10 text-xl text-white font-bold mb-5">Telegram bot</h3>
+          <p class="relative z-10 text-[#D6D6D6] text-sm leading-snug">Telegram messenjerida ishlaydigan
+            avtomatlashtirilgan dasturlar, ularga habarlar, ma'lumotlar, va boshqa tadbirlar orqali javob berishlari
+            uchun sozlanganlar </p>
+          <div class="absolute top-0 left-0 right-0 h-full"><img class="w-full h-full" src="./img/service-card.png"
+              alt="service fradiend"></div>
+        </div>
+        <div class="service-card relative rounded-lg p-8 pb-14 bg-service-gradiend overflow-hidden">
+          <h3 class="relative z-10 text-xl text-white font-bold mb-5">Dasturlash</h3>
+          <p class="relative z-10 text-[#D6D6D6] text-sm leading-snug">Kompyuterlar yoki mobil qurilmalar uchun
+            dasturlar yaratish va ulardan foydalanish texnikasi </p>
+          <div class="absolute top-0 left-0 right-0 h-full"><img class="w-full h-full" src="./img/service-card.png"
+              alt="service fradiend"></div>
+        </div>
+        <div class="service-card relative rounded-lg p-8 pb-14 bg-service-gradiend overflow-hidden">
+          <h3 class="relative z-10 text-xl text-white font-bold mb-5">Mobil ilovalar</h3>
+          <p class="relative z-10 text-[#D6D6D6] text-sm leading-snug">Istalgan qiyinchilikdagi mobil ilovalarni ishlab
+            chiqish va ularni texnik qo’llab quvvatlash </p>
+          <div class="absolute top-0 left-0 right-0 h-full"><img class="w-full h-full" src="./img/service-card.png"
+              alt="service fradiend"></div>
+        </div>
+        <div class="service-card relative rounded-lg p-8 pb-14 bg-service-gradiend overflow-hidden">
+          <h3 class="relative z-10 text-xl text-white font-bold mb-5">Media Production</h3>
+          <p class="relative z-10 text-[#D6D6D6] text-sm leading-snug">Loyiha Mindmapini ishlab chiqish va ushbu
+            arxetektura asosida optimal yechimga ega dizaynlarni chizish </p>
+          <div class="absolute top-0 left-0 right-0 h-full"><img class="w-full h-full" src="./img/service-card.png"
+              alt="service fradiend"></div>
+        </div>
+      </div>
+      <div class="text-right">
+        <a href="#" class="inline-flex group  items-center text-[#0286EF]">
+          <span class="group-hover:mr-3 transition-all">Narxlar</span>
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+            <g opacity="0.99">
+              <path d="M16.17 13L12.59 16.59L14 18L20 12L14 6L12.59 7.41L16.17 11H4V13H16.17Z" fill="#0286EF" />
+            </g>
+          </svg>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Hamkorlarimiz -->
+  <section class="bg-[#1D1D1D] pt-16 pb-24" hidden>
+    <div class="max-w-[1282px] mx-auto px-5">
+      <h2 class="text-white text-4xl font-semibold mb-8">Hamkorlarimiz</h2>
+    </div>
+    <div class="swiper mySwiper px-5">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <div class="h-[130px] rounded-lg overflow-hidden flex items-center justify-center"
+            style="background: linear-gradient(180deg, #252527 30.75%, rgba(1, 134, 239, 0.00) 615.25%)">
+            <img class="object-contain" src="./img/partners/img-1.png" alt="">
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="h-[130px] rounded-lg overflow-hidden flex items-center justify-center"
+            style="background: linear-gradient(180deg, #252527 30.75%, rgba(1, 134, 239, 0.00) 615.25%)">
+            <img class="object-contain" src="./img/partners/img-2.png" alt="">
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="h-[130px] rounded-lg overflow-hidden flex items-center justify-center"
+            style="background: linear-gradient(180deg, #252527 30.75%, rgba(1, 134, 239, 0.00) 615.25%)">
+            <img class="object-contain" src="./img/partners/img-5.png" alt="">
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="h-[130px] rounded-lg overflow-hidden flex items-center justify-center"
+            style="background: linear-gradient(180deg, #252527 30.75%, rgba(1, 134, 239, 0.00) 615.25%)">
+            <img class="object-contain" src="./img/partners/img-4.png" alt="">
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="h-[130px] rounded-lg overflow-hidden flex items-center justify-center"
+            style="background: linear-gradient(180deg, #252527 30.75%, rgba(1, 134, 239, 0.00) 615.25%)">
+            <img class="object-contain" src="./img/partners/img-1.png" alt="">
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="h-[130px] rounded-lg overflow-hidden flex items-center justify-center"
+            style="background: linear-gradient(180deg, #252527 30.75%, rgba(1, 134, 239, 0.00) 615.25%)">
+            <img class="object-contain" src="./img/partners/img-2.png" alt="">
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="h-[130px] rounded-lg overflow-hidden flex items-center justify-center"
+            style="background: linear-gradient(180deg, #252527 30.75%, rgba(1, 134, 239, 0.00) 615.25%)">
+            <img class="object-contain" src="./img/partners/img-5.png" alt="">
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="h-[130px] rounded-lg overflow-hidden flex items-center justify-center"
+            style="background: linear-gradient(180deg, #252527 30.75%, rgba(1, 134, 239, 0.00) 615.25%)">
+            <img class="object-contain" src="./img/partners/img-4.png" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
   <!-- footer  -->
-  <footer class="py-16 bg-[#1D1D1D] mt-auto">
+  <section class="py-16 bg-[#1D1D1D]">
     <div class="max-w-[1282px] mx-auto px-5 flex  items-center gap-40">
       <svg xmlns="http://www.w3.org/2000/svg" width="171" height="56" viewBox="0 0 171 56" fill="none">
         <g clip-path="url(#clip0_616_10014)">
@@ -286,7 +574,7 @@
         </div>
       </div>
     </div>
-  </footer>
+  </section>
 
 
 
