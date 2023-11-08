@@ -8,7 +8,8 @@ module.exports = {
         "service-bg":"linear-gradient(0deg, #141415 0%, #141415 100%), #FFF"
       },
       boxShadow: {
-        'custom': '0px 0px 10px 2px #0186EF'
+        'custom': '0px 0px 10px 2px #0186EF',
+        'custom-form': '0px 0px 5px 1px #0186EF',
       }
 
     },

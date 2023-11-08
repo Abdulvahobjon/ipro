@@ -113,10 +113,19 @@
     <div class="blur-[57px] bg-[rgba(255,255,255,0.04)] absolute top-0 left-0 w-full h-full z-40"></div>
   </header>
 
-   <!-- vakansiya -->
-   <section class="bg-[#141415] pt-8 pb-16">
+  <!-- vakansiya -->
+  <section class="bg-[#141415] pt-8 pb-16">
     <div class="max-w-[1282px] mx-auto px-5">
-      <h2 class="text-white text-4xl font-semibold mb-16">Vakansiya</h2>
+      <h2 class="text-white text-4xl font-semibold mb-16"></h2>
+      <style>
+        h1::after {
+          text-shadow: 0 0 2px rgba(255, 255, 255, 0.25);
+        }
+      </style>
+      <h1
+        class="text-[64px] font-semibold text-white  text-center mb-24 relative after:text-[#141415] after:content-['Vakansiya'] after:absolute after:top-1/2 after:left-1/2 after:-translate-x-1/2 after:-translate-y-1/2 after:block after:text-[128px] after:z-10 uppercase">
+        <span class="relative z-30">Vakansiya</span>
+      </h1>
       <div class="grid grid-cols-3 gap-x-5">
         <div class="group rounded-lg">
           <div class="bg-[#0F4A78] rounded-lg pl-5 pr-4 pt-5 pb-11 hover:shadow-custom transition-all">
@@ -514,7 +523,7 @@
     </div>
   </section>
 
- 
+
 
   <!-- footer  -->
   <footer class="py-16 bg-[#1D1D1D] mt-auto">
