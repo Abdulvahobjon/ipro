@@ -1071,6 +1071,10 @@ video {
   font-size: 0.75rem;
   line-height: 1rem;
 }
+.text-5xl{
+  font-size: 3rem;
+  line-height: 1;
+}
 .font-black{
   font-weight: 900;
 }
@@ -1256,6 +1260,16 @@ body{
   font-size: 128px;
 }
 
+.after\:text-\[88px\]::after{
+  content: var(--tw-content);
+  font-size: 88px;
+}
+
+.after\:text-\[68px\]::after{
+  content: var(--tw-content);
+  font-size: 68px;
+}
+
 .after\:text-\[\#141415\]::after{
   content: var(--tw-content);
   --tw-text-opacity: 1;
@@ -1343,6 +1357,9 @@ body{
   .md\:flex{
     display: flex;
   }
+  .md\:grid{
+    display: grid;
+  }
   .md\:hidden{
     display: none;
   }
@@ -1383,6 +1400,25 @@ body{
   }
   .md\:pb-\[364px\]{
     padding-bottom: 364px;
+  }
+  .md\:text-\[64px\]{
+    font-size: 64px;
+  }
+  .after\:md\:text-\[128px\]::after{
+    content: var(--tw-content);
+    font-size: 128px;
+  }
+  .after\:md\:text-\[88px\]::after{
+    content: var(--tw-content);
+    font-size: 88px;
+  }
+  .md\:after\:text-\[38px\]::after{
+    content: var(--tw-content);
+    font-size: 38px;
+  }
+  .md\:after\:text-\[128px\]::after{
+    content: var(--tw-content);
+    font-size: 128px;
   }
 }
 
