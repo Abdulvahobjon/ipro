@@ -12,8 +12,8 @@
 <body class="bg-[#1D1D1D]">
 
   <!-- header -->
-  <header class="relative top-0 left-0 right-0 z-50 w-full pt-9 pb-7 bg-[rgba(255,255,255,0.04)]">
-    <div class="max-w-[1282px] mx-auto px-5 flex items-center">
+  <header class="relative top-0 left-0 right-0 z-50 w-full pt-9 pb-7 bg-[rgba(255,255,255,0.04)]" >
+    <div class="max-w-[1282px] mx-auto px-5 flex items-center justify-between">
       <a href="./index.html" class="flex">
         <svg xmlns="http://www.w3.org/2000/svg" width="99" height="32" viewBox="0 0 99 32" fill="none">
           <g clip-path="url(#clip0_129_4648)">
@@ -91,7 +91,7 @@
           </defs>
         </svg>
       </a>
-      <div class="flex items-center ml-auto gap-10">
+      <div class="items-center ml-auto gap-10 hidden md:flex">
         <ul class="flex gap-10 items-center">
           <li><a class="text-white text-base font-semibold" href="./employees.html">Hodimlar</a></li>
           <li><a class="text-white text-base font-semibold" href="./elonlar.html">Vakansiya</a></li>
@@ -109,13 +109,15 @@
           </svg>
         </button>
       </div>
+      <button class="text-3xl md:hidden flex text-white">
+        <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><style>svg{fill:#ffffff}</style><path d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"/></svg>
+      </button>
     </div>
-    <div class="blur-3xl bg-[rgba(255,255,255,0.13)] absolute top-0 left-0 w-full"></div>
   </header>
 
 
   <!-- hero  -->
-  <section class="bg-cover pt-28 pb-[512px]" style="background-image:url(./img/hero-bg.png);">
+  <section class="bg-contain bg-no-repeat pt-28 pb-[512px] bg-right" style="background-image:url(./img/bg.svg);">
     <div class="max-w-[1282px] mx-auto px-5">
       <h2 class="text-white text-3xl font-semibold uppercase mb-8">IT mutaxassislaridan qulayliklarni <br>
         taklif qilamiz</h2>
@@ -137,10 +139,10 @@
   <section class="bg-[#141415] pt-16 pb-16">
     <div class="max-w-[1282px] mx-auto px-5">
       <h2 class="text-4xl font-bold text-white mb-8">Yangiliklar</h2>
-      <div class="grid grid-cols-2 gap-5">
+      <div class="grid md:grid-cols-2 grid-cols-1 gap-5">
         <a href="./news-item.html"
           style="background-image:  linear-gradient(180deg, rgba(0, 0, 0, 0.40) 0%, rgba(2, 134, 239, 0.40) 341.42%) , url(./img/news/news-bg-card.png)"
-          class="card-hover bg-cover flex flex-col items-center text-center pt-16 pb-[364px]">
+          class="card-hover bg-cover flex flex-col items-center text-center pt-16 md:pb-[364px] pb-60">
           <img class="mb-[105px]" src="./img/ipro-logo.svg" alt="logo">
 
           <h3 class="text-white text-[40px] font-semibold"><span class="text-[32px] text-[#FFC700]">Ochilish </span>
@@ -148,7 +150,7 @@
             <span class="text-[32px] text-[#FFC700]">taklif qilamiz</span> !
           </h3>
         </a>
-        <div class="grid grid-cols-2 gap-x-5 gap-y-[22px]">
+        <div class="grid md:grid-cols-2 gap-x-5 gap-y-[22px] ">
           <a href="./news-item.html" class="card-hover bg-[#252527]">
             <img class="w-full h-[184px] object-cover" src="./img/news/img-1.png" alt="news-img">
             <div class="px-3 pt-5 pb-10">
@@ -198,24 +200,23 @@
   <section class="py-16 bg-[#141415]">
     <h2 class="hidden">hamkorlar</h2>
     <div
-      class="max-w-[1282px] mx-auto px-5 flex justify-center list-disc [&>*:last-child]:pr-0 [&>*:last-child]:border-none gap-10">
-      <div class="text-center pr-10 border-r border-[#fff]">
+      class="max-w-[1282px] mx-auto px-5 flex justify-center flex-wrap list-disc md:[&>*:last-child]:pr-0 md:[&>*:last-child]:border-none gap-10">
+      <div class="text-center pr-10 md:border-r border-[#fff]">
         <h3 class="text-3xl font-normal text-white">Hamkorlar</h3>
         <b class="text-[40px] font-bold text-white">1028</b>
       </div>
-      <div class="text-center pr-10 border-r border-[#fff]">
+      <div class="text-center pr-10 md:border-r border-[#fff]">
         <h3 class="text-3xl font-normal text-white">Hamkorlar</h3>
         <b class="text-[40px] font-bold text-white">1028</b>
       </div>
-      <div class="text-center pr-10 border-r border-[#fff]">
+      <div class="text-center pr-10 md:border-r border-[#fff]">
         <h3 class="text-3xl font-normal text-white">Hamkorlar</h3>
         <b class="text-[40px] font-bold text-white">1028</b>
       </div>
-      <div class="text-center pr-10 border-r border-[#fff]">
+      <div class="text-center pr-10 md:border-r border-[#fff]">
         <h3 class="text-3xl font-normal text-white">Hamkorlar</h3>
         <b class="text-[40px] font-bold text-white">1028</b>
       </div>
-
     </div>
   </section>
 
@@ -223,7 +224,7 @@
   <section class="bg-[#141415] pt-16 pb-16">
     <div class="max-w-[1282px] mx-auto px-5">
       <h2 class="text-white text-4xl font-semibold mb-8">Xizmatlarimiz</h2>
-      <div class="grid grid-cols-3 gap-5">
+      <div class="grid lg:grid-cols-3 gap-5 md:grid-cols-2 grid-cols-1">
         <div style="background-image: linear-gradient(180deg, #252527 30.75%, rgba(1, 134, 239, 0.00) 615.25%);"
           class="p-8 pr-14 pb-5 relative overflow-hidden rounded-lg flex flex-col hover:shadow-[0 0 10px #0086EE4D]">
           <svg class="absolute bottom-3 right-0 inline-block" xmlns="http://www.w3.org/2000/svg" width="202"
@@ -561,35 +562,32 @@
           </div>
 
         </div>
-
-
       </div>
-
     </div>
   </section>
 
   <section class="pt-14 pb-9 bg-[#141415]">
-    <div class="max-w-[880px] mx-auto px-5 grid grid-cols-4 gap-6">
-      <div class="flex flex-col justify-center">
+    <div class="max-w-[880px] mx-auto px-5 grid md:grid-cols-4 grid-cols-2 gap-6 justify-center">
+      <div class="flex flex-col md:justify-center">
         <img src="./img/quality/img-2.svg" alt="img">
         <p class="px-4 text-sm text-white leading-snug text-center -translate-y-4 bg-[#141415]">Biz bilan barchasi
           <b class="uppercase">XAVFSIZ</b>
         </p>
       </div>
-      <div class="flex flex-col justify-center">
+      <div class="flex flex-col md:justify-center">
         <img src="./img/quality/img-1.svg" alt="img">
         <p class="px-4 text-sm text-white leading-snug text-center -translate-y-4 bg-[#141415]">Biznesingizni yanada
           <b class="uppercase">RIVOJLANTIRING</b>
         </p>
       </div>
-      <div class="flex flex-col justify-center">
+      <div class="flex flex-col md:justify-center">
         <img src="./img/quality/img-4.svg" alt="img">
         <p class="px-4 text-sm text-white leading-snug text-center -translate-y-4 bg-[#141415]">Dunyo bozorida o’z
           o’rningizni
           <b class="uppercase"> EGALLANG</b>
         </p>
       </div>
-      <div class="flex flex-col justify-center">
+      <div class="flex flex-col md:justify-center">
         <img src="./img/quality/img-3.svg" alt="img">
         <p class="px-4 text-sm text-white leading-snug text-center -translate-y-4 bg-[#141415]">SIZ bizni tanlab
           <b class="uppercase">ADASHMADINGIZ</b>
@@ -608,8 +606,8 @@
   <section class="bg-[#141415] pt-16 pb-28">
     <div class="max-w-[1282px] mx-auto px-5">
       <h2 class="text-white text-4xl font-semibold mb-16">Xizmatlarimiz</h2>
-      <div class="grid grid-cols-4 gap-5 list-disc [&>*:nth-child(2n)]:-translate-y-20">
-        <div style=""
+      <div class="grid lg:grid-cols-4 md:grid-cols-2 gap-5 list-disc lg:[&>*:nth-child(2n)]:-translate-y-20 mb-8 lg:mb-0">
+        <div
           class="h-96 w-full bg-cover py-6 px-3 flex gap-5 items-end relative cursor-pointer group overflow-hidden bg-[linear-gradient(147deg,rgba(37,37,39,0.00)0%,rgba(2,134,239,0.20)98.75%),url('../img/hodim/img-1.png')] hover:!bg-[url('../img/hodim/img-1.png')]">
           <h3 class="text-xl font-semibold text-white"><span class="block">Asadov</span> <span
               class="block">Abdurauf</span></h3>
@@ -625,7 +623,7 @@
             </p>
           </div>
         </div>
-        <div style=""
+        <div
           class="h-96 w-full bg-cover py-6 px-3 flex gap-5 items-end relative cursor-pointer group overflow-hidden bg-[linear-gradient(147deg,rgba(37,37,39,0.00)0%,rgba(2,134,239,0.20)98.75%),url('../img/hodim/img-1.png')] hover:!bg-[url('../img/hodim/img-1.png')]">
           <h3 class="text-xl font-semibold text-white"><span class="block">Asadov</span> <span
               class="block">Abdurauf</span></h3>
@@ -641,7 +639,7 @@
             </p>
           </div>
         </div>
-        <div style=""
+        <div
           class="h-96 w-full bg-cover py-6 px-3 flex gap-5 items-end relative cursor-pointer group overflow-hidden bg-[linear-gradient(147deg,rgba(37,37,39,0.00)0%,rgba(2,134,239,0.20)98.75%),url('../img/hodim/img-1.png')] hover:!bg-[url('../img/hodim/img-1.png')]">
           <h3 class="text-xl font-semibold text-white"><span class="block">Asadov</span> <span
               class="block">Abdurauf</span></h3>
@@ -657,7 +655,7 @@
             </p>
           </div>
         </div>
-        <div style=""
+        <div
           class="h-96 w-full bg-cover py-6 px-3 flex gap-5 items-end relative cursor-pointer group overflow-hidden bg-[linear-gradient(147deg,rgba(37,37,39,0.00)0%,rgba(2,134,239,0.20)98.75%),url('../img/hodim/img-1.png')] hover:!bg-[url('../img/hodim/img-1.png')]">
           <h3 class="text-xl font-semibold text-white"><span class="block">Asadov</span> <span
               class="block">Abdurauf</span></h3>
@@ -691,7 +689,7 @@
   <section class="bg-[#141415] pt-8 pb-16">
     <div class="max-w-[1282px] mx-auto px-5">
       <h2 class="text-white text-4xl font-semibold mb-16">Vakansiya</h2>
-      <div class="grid grid-cols-3 gap-x-5">
+      <div class="grid lg:grid-cols-3 md:grid-cols-2 gap-x-5">
         <div class="group rounded-lg">
           <div class="bg-[#0F4A78] rounded-lg pl-5 pr-4 pt-5 pb-11 hover:shadow-custom transition-all">
             <div class="">
@@ -1153,7 +1151,7 @@
       <h3 class="text-white text-4xl font-semibold mb-24 text-center">IT sohasida xalqaro standartlarni
         qo'llab-quvvatlaymiz </h3>
       <div
-        class="grid grid-cols-3 gap-5 list-disc">
+        class="grid md:grid-cols-3 grid-cols-1 gap-5 list-disc">
         <div class="pt-[2px] px-10 pb-10 hover:bg-[#0086EE] group transition-all bg-[#252525] rounded-lg">
           <div class="relative mb-4">
             <hr class="absolute top-1/2 w-full h-px bg-white">
@@ -1214,41 +1212,44 @@
  
   <section class="bg-[#141415] pt-16 pb-16 overflow-hidden" id="contact">
     <div class="max-w-[1282px] mx-auto px-5 flex items-center relative">
-      <div class="border-[132px] border-[#0086EE] w-[832px] h-[832px] absolute rounded-full bottom-16 -right-[431px]">
+      <div class="border-[132px] border-[#0086EE] w-[832px] h-[832px] absolute rounded-full bottom-16 -right-[431px] lg:block hidden">
       </div>
-      <img src="./img/contact/contact-bg-ef.png" class="absolute -bottom-16 left-0 h-auto" alt="">
-      <form action="#" class="max-w-[732px] relative px-10 pt-7 pb-9 border-[3px] border-[#0186EF] rounded-lg shadow-custom-form relative after:content-[''] after:bg-[#141415] after:w-24 after:h-5 after:block after:absolute after:top-0 after:left-1/2 after:-translate-x-1/2 after:-translate-y-1/2">
+      <img src="./img/contact/contact-bg-ef.png" class="absolute -bottom-16 left-0 h-auto lg:block hidden" alt="">
+      <form action="#" class="max-w-[732px] w-full px-5 md:px-10 pt-7 pb-9 border-[3px] border-[#0186EF] rounded-lg shadow-custom-form relative after:content-[''] after:bg-[#141415] after:w-24 after:h-5 after:block after:absolute after:top-0 after:left-1/2 after:-translate-x-1/2 after:-translate-y-1/2">
         <h3 class="text-white text-4xl font-bold mb-8">Bog’lanish</h3>
-        <div class="grid grid-cols-2 gap-x-14 gap-y-5" >
+        <div class="grid md:grid-cols-2 grid-cols-1 gap-x-14 gap-y-5">
           <div>
             <label class="text-sm text-white mb-2.5" for="ism">*Ism</label>
             <input type="text" id="ism" class="w-full pl-2 text-white h-[46px] rounded-lg bg-[rgba(255,255,255,0.09)]">
           </div>
           <div>
-            <label class="text-sm text-white mb-2.5" for="ism">Firma nomi</label>
-            <input type="text" id="ism" required class="w-full relative h-[46px] rounded-lg bg-[rgba(255,255,255,0.09)]">
+            <label class="text-sm text-white mb-2.5" for="firma">Firma nomi</label>
+            <input type="text" id="firma" required class="w-full text-white pl-2 relative h-[46px] rounded-lg bg-[rgba(255,255,255,0.09)]">
           </div>
           <div>
-            <label class="text-sm text-white mb-2.5" for="ism">*Telefon raqam</label>
-            <input type="text" id="ism" class="w-full pl-2 text-white h-[46px] rounded-lg bg-[rgba(255,255,255,0.09)]">
+            <label class="text-sm text-white mb-2.5" for="raqam">*Telefon raqam</label>
+            <input type="text" id="raqam" class="w-full pl-2 text-white h-[46px] rounded-lg bg-[rgba(255,255,255,0.09)]">
           </div>
           <div>
-            <label class="text-sm text-white mb-2.5" for="ism">Xizmat turi</label>
-            <input type="text" id="ism" required class="w-full pl-2 text-white h-[46px] rounded-lg bg-[rgba(255,255,255,0.09)]">
+            <label class="text-sm text-white mb-2.5" for="xizmat">Xizmat turi</label>
+            <input type="text" id="xizmat
+            
+            
+            " required class="w-full pl-2 text-white h-[46px] rounded-lg bg-[rgba(255,255,255,0.09)]">
           </div>
-          <textarea name="" class="w-full pl-2 text-white pt-2 col-span-2 h-[200px] rounded-lg resize-none bg-[rgba(255,255,255,0.09)]" id="" cols="30" rows="10"></textarea>
+          <textarea name="" class="w-full pl-2 text-white pt-2 col-span-1 md:col-span-2 h-[200px] rounded-lg resize-none bg-[rgba(255,255,255,0.09)]" id="" cols="30" rows="10"></textarea>
           <button class="text-[#D9FFFF] text-sm font-bold  bg-[#0086EE] rounded-lg py-4 px-12 "
           style="box-shadow: 0px 1px 14px -4px #016079;" href="tel:+998935533352">Bog’lanish</button>
         </div>
       </form>
-      <img class="ml-auto relative" src="./img/contact/Floating_app_screen_device_mockup 1.png" alt="form iphone">
+      <img class="ml-auto relative lg:block hidden" src="./img/contact/Floating_app_screen_device_mockup 1.png" alt="form iphone">
     </div>
   </section>
 
   <!-- footer  -->
   <footer class="py-16 bg-[#1D1D1D]">
-    <div class="max-w-[1282px] mx-auto px-5 flex  items-center gap-40">
-      <svg xmlns="http://www.w3.org/2000/svg" width="171" height="56" viewBox="0 0 171 56" fill="none">
+    <div class="max-w-[1282px] mx-auto px-5 lg:flex  items-center gap-40">
+      <svg class="flex-shrink-0 mb-8 lg:mb-0" xmlns="http://www.w3.org/2000/svg" width="171" height="56" viewBox="0 0 171 56" fill="none">
         <g clip-path="url(#clip0_616_10014)">
           <path
             d="M73.2436 4.53853C73.3344 4.89164 73.3786 5.45116 73.3786 6.21708C73.3786 6.95316 73.3344 7.49776 73.2436 7.85088C72.9711 8.91023 72.3428 9.59906 71.3585 9.92234C70.8578 10.0914 70.2148 10.176 69.4293 10.176C68.6267 10.176 67.9763 10.0914 67.4756 9.92234C67.0362 9.76816 66.646 9.517 66.3048 9.16388C65.9637 8.81076 65.7329 8.3731 65.6127 7.85336C65.5071 7.43808 65.4531 6.89597 65.4531 6.21957C65.4531 5.51333 65.5071 4.95382 65.6127 4.54101C65.7329 4.03372 65.9637 3.60599 66.3048 3.25288C66.646 2.89976 67.0338 2.63865 67.4756 2.46955C67.9297 2.31537 68.5801 2.23828 69.4293 2.23828C70.2614 2.23828 70.9045 2.31537 71.3585 2.46955C72.3575 2.82267 72.9858 3.5115 73.2436 4.53853ZM72.8116 37.667H66.0226V13.3267H72.8116V37.667Z"
@@ -1321,8 +1322,8 @@
         </defs>
       </svg>
 
-      <div class="flex gap-28">
-        <div class="max-w-[249px]">
+      <div class="flex md:gap-28 gap-8 flex-col md:flex-row">
+        <div class="md:max-w-[249px]">
           <h3 class="text-xl text-white font-bold mb-7">Bog’laning</h3>
           <ul class="flex flex-col gap-7">
             <li class="flex gap-5 items-center"><svg class="flex-shrink-0" xmlns="http://www.w3.org/2000/svg" width="25" height="24"
@@ -1362,7 +1363,7 @@
               </li>
           </ul>
         </div>
-        <div class="max-w-[249px]">
+        <div class="md:max-w-[249px]">
           <h3 class="text-xl text-white font-bold mb-7">Linklar</h3>
           <ul class="flex flex-col gap-4">
             <li><a class="text-base font-semibold text-white" href="./news.html">Yangiliklar</a></li>

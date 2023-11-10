@@ -10,6 +10,8 @@ module.exports = {
       boxShadow: {
         'custom': '0px 0px 10px 2px #0186EF',
         'custom-form': '0px 0px 5px 1px #0186EF',
+        'about-btn': '0px 1px 14px -4px #016079',
+        "about-disc": "0px 0px 50px 4px #0086EE;"
       }
 
     },
