@@ -418,6 +418,9 @@ video {
   --tw-backdrop-saturate:  ;
   --tw-backdrop-sepia:  ;
 }
+.visible{
+  visibility: visible;
+}
 .absolute{
   position: absolute;
 }
@@ -427,6 +430,9 @@ video {
 .-bottom-16{
   bottom: -4rem;
 }
+.-bottom-\[400px\]{
+  bottom: -400px;
+}
 .-right-2{
   right: -0.5rem;
 }
@@ -435,9 +441,6 @@ video {
 }
 .-right-\[487px\]{
   right: -487px;
-}
-.-top-24{
-  top: -6rem;
 }
 .bottom-0{
   bottom: 0px;
@@ -465,30 +468,6 @@ video {
 }
 .top-\[180px\]{
   top: 180px;
-}
-.top-auto{
-  top: auto;
-}
-.\!bottom-0{
-  bottom: 0px !important;
-}
-.bottom-\[\]{
-  bottom: ;
-}
-.bottom-\[-\]{
-  bottom: -;
-}
-.bottom-\[-300px\]{
-  bottom: -300px;
-}
-.bottom-\[300px\]{
-  bottom: 300px;
-}
-.-bottom-\[300px\]{
-  bottom: -300px;
-}
-.-bottom-\[400px\]{
-  bottom: -400px;
 }
 .z-0{
   z-index: 0;
@@ -587,6 +566,9 @@ video {
 .h-8{
   height: 2rem;
 }
+.h-9{
+  height: 2.25rem;
+}
 .h-96{
   height: 24rem;
 }
@@ -602,14 +584,14 @@ video {
 .h-\[200px\]{
   height: 200px;
 }
+.h-\[330px\]{
+  height: 330px;
+}
 .h-\[40px\]{
   height: 40px;
 }
 .h-\[46px\]{
   height: 46px;
-}
-.h-\[741px\]{
-  height: 741px;
 }
 .h-\[832px\]{
   height: 832px;
@@ -622,18 +604,6 @@ video {
 }
 .h-px{
   height: 1px;
-}
-.h-\[\]{
-  height: ;
-}
-.h-\[550px\]{
-  height: 550px;
-}
-.h-56{
-  height: 14rem;
-}
-.h-\[330px\]{
-  height: 330px;
 }
 .min-h-screen{
   min-height: 100vh;
@@ -701,6 +671,9 @@ video {
 }
 .resize-none{
   resize: none;
+}
+.resize{
+  resize: both;
 }
 .list-disc{
   list-style-type: disc;
@@ -852,6 +825,10 @@ video {
 .bg-\[\#252527\]{
   --tw-bg-opacity: 1;
   background-color: rgb(37 37 39 / var(--tw-bg-opacity));
+}
+.bg-\[\#29292A\]{
+  --tw-bg-opacity: 1;
+  background-color: rgb(41 41 42 / var(--tw-bg-opacity));
 }
 .bg-\[rgba\(255\2c 255\2c 255\2c 0\.04\)\]{
   background-color: rgba(255,255,255,0.04);
@@ -1219,149 +1196,123 @@ body{
   font-size: 1.2em;
   transform-origin: 0 180px;
 }
-
+.wow:first-child {
+  visibility: hidden;
+}
 .after\:absolute::after{
   content: var(--tw-content);
   position: absolute;
 }
-
 .after\:left-1\/2::after{
   content: var(--tw-content);
   left: 50%;
 }
-
 .after\:top-0::after{
   content: var(--tw-content);
   top: 0px;
 }
-
 .after\:top-1\/2::after{
   content: var(--tw-content);
   top: 50%;
 }
-
 .after\:z-10::after{
   content: var(--tw-content);
   z-index: 10;
 }
-
 .after\:block::after{
   content: var(--tw-content);
   display: block;
 }
-
 .after\:h-5::after{
   content: var(--tw-content);
   height: 1.25rem;
 }
-
 .after\:w-24::after{
   content: var(--tw-content);
   width: 6rem;
 }
-
 .after\:-translate-x-1\/2::after{
   content: var(--tw-content);
   --tw-translate-x: -50%;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
-
 .after\:-translate-y-1\/2::after{
   content: var(--tw-content);
   --tw-translate-y: -50%;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
-
 .after\:bg-\[\#141415\]::after{
   content: var(--tw-content);
   --tw-bg-opacity: 1;
   background-color: rgb(20 20 21 / var(--tw-bg-opacity));
 }
-
 .after\:text-\[58px\]::after{
   content: var(--tw-content);
   font-size: 58px;
 }
-
 .after\:text-\[68px\]::after{
   content: var(--tw-content);
   font-size: 68px;
 }
-
 .after\:text-\[\#141415\]::after{
   content: var(--tw-content);
   --tw-text-opacity: 1;
   color: rgb(20 20 21 / var(--tw-text-opacity));
 }
-
 .after\:content-\[\'\'\]::after{
   --tw-content: '';
   content: var(--tw-content);
 }
-
 .after\:content-\[\'Vakansiya\'\]::after{
   --tw-content: 'Vakansiya';
   content: var(--tw-content);
 }
-
 .after\:content-\[\'Yangiliklar\'\]::after{
   --tw-content: 'Yangiliklar';
   content: var(--tw-content);
 }
-
 .after\:content-\[\'hizmatlar\'\]::after{
   --tw-content: 'hizmatlar';
   content: var(--tw-content);
 }
-
 .after\:content-\[\'hodimlar\'\]::after{
   --tw-content: 'hodimlar';
   content: var(--tw-content);
 }
-
 .hover\:border-\[\#0086EE\]:hover{
   --tw-border-opacity: 1;
   border-color: rgb(0 134 238 / var(--tw-border-opacity));
 }
-
 .hover\:bg-\[\#0086EE\]:hover{
   --tw-bg-opacity: 1;
   background-color: rgb(0 134 238 / var(--tw-bg-opacity));
 }
-
 .hover\:bg-transparent:hover{
   background-color: transparent;
 }
-
 .hover\:bg-white:hover{
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
-
 .hover\:\!bg-\[url\(\'\.\.\/img\/hodim\/img-1\.png\'\)\]:hover{
   background-image: url('../img/hodim/img-1.png') !important;
 }
-
 .hover\:shadow-custom:hover{
   --tw-shadow: 0px 0px 10px 2px #0186EF;
   --tw-shadow-colored: 0px 0px 10px 2px var(--tw-shadow-color);
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
-
 .group:hover .group-hover\:ml-2{
   margin-left: 0.5rem;
 }
-
 .group:hover .group-hover\:translate-y-0{
   --tw-translate-y: 0px;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
-
 .group:hover .group-hover\:bg-\[\#0086ee\]{
   --tw-bg-opacity: 1;
   background-color: rgb(0 134 238 / var(--tw-bg-opacity));
 }
-
 @media (min-width: 768px){
   .md\:-top-24{
     top: -6rem;
@@ -1380,12 +1331,6 @@ body{
   }
   .md\:hidden{
     display: none;
-  }
-  .md\:h-\[\]{
-    height: ;
-  }
-  .md\:h-\[330px\]{
-    height: 330px;
   }
   .md\:max-w-\[249px\]{
     max-width: 249px;
@@ -1432,7 +1377,6 @@ body{
     font-size: 128px;
   }
 }
-
 @media (min-width: 1024px){
   .lg\:order-none{
     order: 0;
@@ -1459,7 +1403,6 @@ body{
     grid-template-columns: repeat(4, minmax(0, 1fr));
   }
 }
-
 @media (min-width: 768px){
   .md\:\[\&\>\*\:last-child\]\:border-none>*:last-child{
     border-style: none;
@@ -1468,7 +1411,6 @@ body{
     padding-right: 0px;
   }
 }
-
 @media (min-width: 1024px){
   .lg\:\[\&\>\*\:nth-child\(2n\)\]\:-translate-y-20>*:nth-child(2n){
     --tw-translate-y: -5rem;
