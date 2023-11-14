@@ -1,3 +1,20 @@
+let headerMenuBtn =  document.querySelector("#headerMenuBtn")
+let headerResponsiveMenu =  document.querySelector("#headerResponsiveMenu")
+let headerResponsiveBtn =  document.querySelector("#headerResponsiveBtn")
+
+headerMenuBtn.addEventListener('click' , function(){
+  headerResponsiveMenu.classList.add("translate-x-0")
+  headerResponsiveMenu.classList.remove("translate-x-full")
+})
+
+
+headerResponsiveBtn.addEventListener('click' , function(){
+  headerResponsiveMenu.classList.remove("translate-x-0")
+  headerResponsiveMenu.classList.add("translate-x-full")
+})
+
+
+
 var swiper = new Swiper(".mySwiper", {
   slidesPerView: 6,
   spaceBetween: 21,
@@ -53,3 +70,4 @@ document.getElementById("moar").onclick = function () {
   section.className = "section--purple wow fadeInDown";
   this.parentNode.insertBefore(section, this);
 };
+
