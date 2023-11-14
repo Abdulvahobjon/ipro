@@ -539,9 +539,6 @@ video {
 .ml-auto{
   margin-left: auto;
 }
-.mr-16{
-  margin-right: 4rem;
-}
 .mt-auto{
   margin-top: auto;
 }
@@ -565,9 +562,6 @@ video {
 }
 .h-8{
   height: 2rem;
-}
-.h-9{
-  height: 2.25rem;
 }
 .h-96{
   height: 24rem;
@@ -738,6 +732,9 @@ video {
 .gap-8{
   gap: 2rem;
 }
+.gap-9{
+  gap: 2.25rem;
+}
 .gap-x-14{
   -moz-column-gap: 3.5rem;
        column-gap: 3.5rem;
@@ -825,10 +822,6 @@ video {
 .bg-\[\#252527\]{
   --tw-bg-opacity: 1;
   background-color: rgb(37 37 39 / var(--tw-bg-opacity));
-}
-.bg-\[\#29292A\]{
-  --tw-bg-opacity: 1;
-  background-color: rgb(41 41 42 / var(--tw-bg-opacity));
 }
 .bg-\[rgba\(255\2c 255\2c 255\2c 0\.04\)\]{
   background-color: rgba(255,255,255,0.04);
