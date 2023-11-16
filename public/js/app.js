@@ -13,7 +13,42 @@ headerResponsiveBtn.addEventListener('click' , function(){
   headerResponsiveMenu.classList.add("translate-x-full")
 })
 
+let section_counter = document.querySelector('#section_counter');
+let counters = document.querySelectorAll('.counter-item .counter');
 
+document.addEventListener("DOMContentLoaded", function() {
+  var counters = document.querySelectorAll('.counter');
+  
+  counters.forEach(function(counterElement) {
+    var target = parseInt(counterElement.getAttribute('data-target'));
+    var count = 0;
+
+    var updateCounter = function() {
+      var increment = target / 100; // Qancha darajada oshirishni xohlaysiz
+      count += increment;
+      counterElement.innerText = Math.round(count);
+      
+      if (count < target) {
+        requestAnimationFrame(updateCounter);
+      } else {
+        count = target;
+        counterElement.style.opacity = 1;
+      }
+    };
+
+    var handleScroll = function() {
+      var scrollPosition = window.scrollY + window.innerHeight;
+      var elementPosition = counterElement.offsetTop;
+
+      if (scrollPosition > elementPosition) {
+        updateCounter();
+        window.removeEventListener('scroll', handleScroll);
+      }
+    };
+
+    window.addEventListener('scroll', handleScroll);
+  });
+});
 
 var swiper = new Swiper(".mySwiper", {
   slidesPerView: 6,
@@ -57,7 +92,7 @@ function textRounded() {
     .join("");
 }
 
-wow = new WOW({
+const wow = new WOW({
   animateClass: "animated",
   offset: 100,
   callback: function (box) {

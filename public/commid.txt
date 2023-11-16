@@ -585,3 +585,25 @@
 </body>
 
 </html>
+
+
+  <section class="py-9">
+    <marquee class="text-[#0086EE] text-xl font-semibold flex py-9 gap-9" behavior="" direction=""><span>Bizning kompaniyamiz IT sohasida
+      yuqori malakaga ega ekspertlar to'plamidir</span> * <span>Bizning kompaniyamiz IT sohasida
+        yuqori malakaga ega ekspertlar to'plamidir</span><span>Bizning kompaniyamiz IT sohasida
+          yuqori malakaga ega ekspertlar to'plamidir</span><span>Bizning kompaniyamiz IT sohasida
+            yuqori malakaga ega ekspertlar to'plamidir</span></marquee>
+
+  </section>
+
+
+ <section class="py-9 bg-[#141415]">
+    <marquee class="text-[#0086EE] text-xl font-semibold" behavior="" direction="">Bizning kompaniyamiz IT sohasida
+      yuqori malakaga ega ekspertlar to'plamidir</marquee>
+
+  </section>
+
+   
+
+   
+
