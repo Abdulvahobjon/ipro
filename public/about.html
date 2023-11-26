@@ -16,7 +16,7 @@
 
   <!-- header -->
   <header class="relative top-0 left-0 right-0 z-50 w-full pt-9 pb-7 bg-[rgba(255,255,255,0.04)]" >
-    <div class="max-w-[1282px] mx-auto px-5 flex items-center justify-between">
+    <div class="max-w-[1322px] mx-auto px-5 flex items-center justify-between">
       <a href="./index.html" class="flex">
         <svg xmlns="http://www.w3.org/2000/svg" width="99" height="32" viewBox="0 0 99 32" fill="none">
           <g clip-path="url(#clip0_129_4648)">
@@ -104,14 +104,22 @@
         </ul>
         <a class="text-[#D9FFFF] text-sm font-bold  bg-[#0086EE] rounded-lg py-2.5 px-12 border border-transparent hover:border-[#0086EE] hover:bg-transparent transition-all"
           style="box-shadow: 0px 1px 14px -4px #016079;" href="./index.html#contact">Bog’lanish</a>
-        <button class="flex items-center gap-3 py-2 px-2.5 border border-[#5D5D5D] rounded-lg ">
-          <span class="text-white text-sm font-semibold">UZ</span>
-          <svg xmlns="http://www.w3.org/2000/svg" width="26" height="24" viewBox="0 0 26 24" fill="none">
-            <path
-              d="M3.19863 11H5.23523C6.39178 11 7.32935 11.8954 7.32935 13V14C7.32935 15.1046 8.26692 16 9.42347 16C10.58 16 11.5176 16.8954 11.5176 18V20.9451M8.37641 3.93552V5.5C8.37641 6.88071 9.54837 8 10.9941 8H11.5176C12.6741 8 13.6117 8.89543 13.6117 10C13.6117 11.1046 14.5493 12 15.7058 12C16.8624 12 17.7999 11.1046 17.7999 10C17.7999 8.89543 18.7375 8 19.8941 8L21.0086 8M15.7058 20.4879V18C15.7058 16.8954 16.6434 16 17.7999 16H21.0086M21.9882 12C21.9882 16.9706 17.7691 21 12.5646 21C7.36017 21 3.14111 16.9706 3.14111 12C3.14111 7.02944 7.36017 3 12.5646 3C17.7691 3 21.9882 7.02944 21.9882 12Z"
-              stroke="#5D5E5F" stroke-linecap="round" stroke-linejoin="round" />
-          </svg>
-        </button>
+        <div class="flex flex-col relative">
+          <button id="select-btn" class=" flex items-center gap-3 py-2 px-2.5 border border-[#5D5D5D] rounded-lg">
+            <span class="text-white text-sm font-semibold">UZ</span>
+            <svg xmlns="http://www.w3.org/2000/svg" width="26" height="24" viewBox="0 0 26 24" fill="none">
+              <path
+                d="M3.19863 11H5.23523C6.39178 11 7.32935 11.8954 7.32935 13V14C7.32935 15.1046 8.26692 16 9.42347 16C10.58 16 11.5176 16.8954 11.5176 18V20.9451M8.37641 3.93552V5.5C8.37641 6.88071 9.54837 8 10.9941 8H11.5176C12.6741 8 13.6117 8.89543 13.6117 10C13.6117 11.1046 14.5493 12 15.7058 12C16.8624 12 17.7999 11.1046 17.7999 10C17.7999 8.89543 18.7375 8 19.8941 8L21.0086 8M15.7058 20.4879V18C15.7058 16.8954 16.6434 16 17.7999 16H21.0086M21.9882 12C21.9882 16.9706 17.7691 21 12.5646 21C7.36017 21 3.14111 16.9706 3.14111 12C3.14111 7.02944 7.36017 3 12.5646 3C17.7691 3 21.9882 7.02944 21.9882 12Z"
+                stroke="#5D5E5F" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+          </button>
+          <ul class="select-menu flex absolute top-12 left-0 w-full items-center justify-center flex-col gap-1 mt-1">
+            <li class="w-full"><a class="option border border-[#5D5D5D] text-white font-bold p-2.5 w-full block rounded-lg text-sm" href="./about/ru.html">RU</a></li>
+            <li class="w-full"><a class="option border border-[#5D5D5D] text-white font-bold p-2.5 w-full block rounded-lg text-sm" href="./about/en.html">EN</a></li>
+          </ul>
+       
+        </div>
+        
       </div>
       <button id="headerMenuBtn" class="text-3xl md:hidden flex text-white">
         <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><style>svg{fill:#ffffff}</style><path d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"/></svg>
@@ -133,13 +141,14 @@
         </ul>
         <a class="text-[#D9FFFF] text-sm font-bold  bg-[#0086EE] rounded-lg py-2.5 px-12 border border-transparent hover:border-[#0086EE] hover:bg-transparent transition-all"
           style="box-shadow: 0px 1px 14px -4px #016079;" href="./index.html#contact">Bog’lanish</a>
+
       </div>
     </div>
   </header>
 
 
   <section class="pt-10 pb-[264px]">
-    <div class="max-w-[1282px] mx-auto px-5 relative">
+    <div class="max-w-[1322px] mx-auto px-5 relative">
       <div class="flex justify-center mb-20" >
         <img src="./img/logo-about.svg" alt="about logo">
       </div>
@@ -214,9 +223,11 @@
 
 
   <!-- footer  -->
-  <footer class="py-16 bg-[#1D1D1D] mt-auto">
-    <div class="max-w-[1282px] mx-auto px-5 flex  items-center gap-40">
-      <svg xmlns="http://www.w3.org/2000/svg" width="171" height="56" viewBox="0 0 171 56" fill="none">
+   <!-- footer  -->
+   <footer class="py-16 bg-[#1D1D1D]">
+    <div class="max-w-[1322px] mx-auto px-5 lg:flex  items-center gap-40">
+      <svg class="flex-shrink-0 mb-8 lg:mb-0" xmlns="http://www.w3.org/2000/svg" width="171" height="56"
+        viewBox="0 0 171 56" fill="none">
         <g clip-path="url(#clip0_616_10014)">
           <path
             d="M73.2436 4.53853C73.3344 4.89164 73.3786 5.45116 73.3786 6.21708C73.3786 6.95316 73.3344 7.49776 73.2436 7.85088C72.9711 8.91023 72.3428 9.59906 71.3585 9.92234C70.8578 10.0914 70.2148 10.176 69.4293 10.176C68.6267 10.176 67.9763 10.0914 67.4756 9.92234C67.0362 9.76816 66.646 9.517 66.3048 9.16388C65.9637 8.81076 65.7329 8.3731 65.6127 7.85336C65.5071 7.43808 65.4531 6.89597 65.4531 6.21957C65.4531 5.51333 65.5071 4.95382 65.6127 4.54101C65.7329 4.03372 65.9637 3.60599 66.3048 3.25288C66.646 2.89976 67.0338 2.63865 67.4756 2.46955C67.9297 2.31537 68.5801 2.23828 69.4293 2.23828C70.2614 2.23828 70.9045 2.31537 71.3585 2.46955C72.3575 2.82267 72.9858 3.5115 73.2436 4.53853ZM72.8116 37.667H66.0226V13.3267H72.8116V37.667Z"
@@ -289,16 +300,21 @@
         </defs>
       </svg>
 
-      <div class="flex gap-28">
-        <div class="max-w-[249px]">
+      <div class="flex md:gap-28 gap-8 flex-col md:flex-row">
+        <div class="md:max-w-[249px]">
           <h3 class="text-xl text-white font-bold mb-7">Bog’laning</h3>
           <ul class="flex flex-col gap-7">
-            <li class="flex gap-5 items-center"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="24"
-                viewBox="0 0 25 24" fill="none">
+            <li class="flex gap-5 items-center"><svg class="flex-shrink-0" xmlns="http://www.w3.org/2000/svg" width="25"
+                height="24" viewBox="0 0 25 24" fill="none">
                 <path
                   d="M3.25 5C3.25 3.89543 4.14543 3 5.25 3H8.52924C8.95967 3 9.34181 3.27543 9.47792 3.68377L10.9757 8.17721C11.1331 8.64932 10.9194 9.16531 10.4743 9.38787L8.21701 10.5165C9.31925 12.9612 11.2888 14.9308 13.7335 16.033L14.8621 13.7757C15.0847 13.3306 15.6007 13.1169 16.0728 13.2743L20.5662 14.7721C20.9746 14.9082 21.25 15.2903 21.25 15.7208V19C21.25 20.1046 20.3546 21 19.25 21H18.25C9.96573 21 3.25 14.2843 3.25 6V5Z"
                   stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-              </svg><a class="text-white text-base font-semibold" href="tel:+998902252025">+99890 225 20 25</a></li>
+              </svg>
+              <span>
+                <a class="text-white text-base font-semibold" href="tel:+998905463326">+99890 546 33 26 </a> <br>
+                <a class="text-white text-base font-semibold" href="tel:+998935533352">+99893 553 33 52</a>
+              </span>
+            </li>
             <li class="flex gap-5 items-center"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="24"
                 viewBox="0 0 25 24" fill="none">
                 <g clip-path="url(#clip0_616_9994)">
@@ -314,27 +330,29 @@
               </svg><a class="text-white text-base font-semibold" href="mailto:iPro_group@bk.ru">iPro_group@bk.ru</a>
             </li>
 
-            <li class="flex gap-5 items-center"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="24"
-                viewBox="0 0 25 24" fill="none">
+
+            <li class="flex gap-5 items-center">
+              <svg xmlns="http://www.w3.org/2000/svg" class="flex-shrink-0" width="25" height="24" viewBox="0 0 25 24"
+                fill="none">
                 <path
                   d="M17.9069 16.6569C16.9702 17.5935 15.0116 19.5521 13.6638 20.8999C12.8827 21.681 11.6177 21.6814 10.8366 20.9003C9.51234 19.576 7.59159 17.6553 6.59315 16.6569C3.46895 13.5327 3.46895 8.46734 6.59315 5.34315C9.71734 2.21895 14.7827 2.21895 17.9069 5.34315C21.031 8.46734 21.031 13.5327 17.9069 16.6569Z"
                   stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
                 <path
                   d="M15.25 11C15.25 12.6569 13.9069 14 12.25 14C10.5931 14 9.25 12.6569 9.25 11C9.25 9.34315 10.5931 8 12.25 8C13.9069 8 15.25 9.34315 15.25 11Z"
                   stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-              </svg><a class="text-white text-base font-semibold" href="tel:+998902252025">O'zbekiston Andijan shaxar
-                A.Fitrat ko'chasi 8</a></li>
-
-
+              </svg>
+              <a class="text-white text-base font-semibold" href="tel:+998902252025">O'zbekiston Andijan shaxar
+                A.Fitrat ko'chasi 8</a>
+            </li>
           </ul>
         </div>
-        <div class="max-w-[249px]">
+        <div class="md:max-w-[249px]">
           <h3 class="text-xl text-white font-bold mb-7">Linklar</h3>
           <ul class="flex flex-col gap-4">
-            <li><a class="text-base font-semibold text-white" href="#">Yangiliklar</a></li>
-            <li><a class="text-base font-semibold text-white" href="#">Xizmatlar</a></li>
-            <li><a class="text-base font-semibold text-white" href="#">Hodimlar</a></li>
-            <li><a class="text-base font-semibold text-white" href="#">Vakansiya</a></li>
+            <li><a class="text-base font-semibold text-white" href="./news.html">Yangiliklar</a></li>
+            <li><a class="text-base font-semibold text-white" href="./services.html">Xizmatlar</a></li>
+            <li><a class="text-base font-semibold text-white" href="./employees.html">Hodimlar</a></li>
+            <li><a class="text-base font-semibold text-white" href="./elonlar.html">Vakansiya</a></li>
           </ul>
         </div>
         <div>

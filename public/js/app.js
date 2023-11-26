@@ -50,6 +50,39 @@ document.addEventListener("DOMContentLoaded", function() {
   });
 });
 
+const optionMenu = document.querySelector(".select-menu"),
+    selectBtn = document.querySelector("#select-btn"),
+    options = optionMenu.querySelectorAll(".option");
+    console.log(
+      selectBtn);
+
+selectBtn.addEventListener("click" , function(){
+  optionMenu.classList.toggle("hidden")
+  optionMenu.classList.toggle("flex")
+})
+
+options.forEach(option => {
+    option.addEventListener("click", () => {
+        let selectedOption = selectBtn.querySelector("span");
+         selectedOption.innerText = option.innerText
+
+        optionMenu.classList.toggle("hidden")
+        optionMenu.classList.toggle("flex")
+    });
+});
+
+function textRounded() {
+  let circleText = document.querySelector("#circle-text");
+  circleText.innerHTML = circleText.innerText
+    .split("")
+    .map((item, index) => {
+      return `<span style="transform:rotate(${index * 8.2}deg)">${item}</span>`;
+    })
+    .join("");
+}
+textRounded()
+
+
 var swiper = new Swiper(".mySwiper", {
   slidesPerView: 6,
   spaceBetween: 21,
@@ -82,15 +115,6 @@ var swiper = new Swiper(".mySwiper", {
   },
 });
 
-function textRounded() {
-  let circleText = document.querySelector("#circle-text");
-  circleText.innerHTML = circleText.innerText
-    .split("")
-    .map((item, index) => {
-      return `<span style="transform:rotate(${index * 8.2}deg)">${item}</span>`;
-    })
-    .join("");
-}
 
 const wow = new WOW({
   animateClass: "animated",
