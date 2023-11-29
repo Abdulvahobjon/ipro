@@ -17,7 +17,7 @@
    <!-- header -->
    <header class="relative top-0 left-0 right-0 z-50 w-full pt-9 pb-7 bg-[rgba(255,255,255,0.04)]" >
     <div class="max-w-[1322px] mx-auto px-5 flex items-center justify-between">
-      <a href="./index.html" class="flex">
+      <a href="../index.html" class="flex">
         <svg xmlns="http://www.w3.org/2000/svg" width="99" height="32" viewBox="0 0 99 32" fill="none">
           <g clip-path="url(#clip0_129_4648)">
             <path
@@ -94,17 +94,21 @@
           </defs>
         </svg>
       </a>
-      <div class="items-center ml-auto gap-10 hidden md:flex">
+      <div class="items-center ml-auto gap-10 hidden lg:flex">
         <ul class="flex gap-10 items-center">
-          <li><a class="text-white text-base font-semibold hover:text-[#0086EE]" href="./index.html">Bosh sahifa </a></li>
-          <li><a class="text-white text-base font-semibold hover:text-[#0086EE]" href="./services.html">Xizmatlar</a></li>
-          <li><a class="text-[#0086EE] text-base font-semibold hover:text-[#0086EE]" href="./news.html">Yangiliklar</a></li>
-          <li><a class="text-white text-base font-semibold hover:text-[#0086EE]" href="./employees.html">Hodimlar</a></li>
-          <li><a class="text-white text-base font-semibold hover:text-[#0086EE]" href="./elonlar.html">Vakansiya</a></li>
+          <li><a class="text-white text-base font-semibold" href="../index.html">Bosh sahifa </a></li>
+          <li><a class="text-white text-base font-semibold" href="../services.html">Xizmatlar</a></li>
+          <li><a class="text-white text-base font-semibold" href="../news.html">Yangiliklar</a></li>
+          <li><a class="text-white text-base font-semibold" href="../employees.html">Xodimlar</a></li>
+          <li><a class="text-white text-base font-semibold" href="../elonlar.html">Vakansiya</a></li>
         </ul>
         <a class="text-[#D9FFFF] text-sm font-bold  bg-[#0086EE] rounded-lg py-2.5 px-12 border border-transparent hover:border-[#0086EE] hover:bg-transparent transition-all"
-          style="box-shadow: 0px 1px 14px -4px #016079;" href="./index.html#contact">Bog’lanish</a>
-        <button class="flex items-center gap-3 py-2 px-2.5 border border-[#5D5D5D] rounded-lg ">
+          style="box-shadow: 0px 1px 14px -4px #016079;" href="../index.html#contact">Ulanish</a>
+       
+        
+      </div>
+      <div class="flex flex-col relative lg:ml-5 ml-auto mr-5 lg:mr-0">
+        <button id="select-btn" class=" flex items-center gap-3 py-2 px-2.5 border border-[#5D5D5D] rounded-lg">
           <span class="text-white text-sm font-semibold">UZ</span>
           <svg xmlns="http://www.w3.org/2000/svg" width="26" height="24" viewBox="0 0 26 24" fill="none">
             <path
@@ -112,27 +116,32 @@
               stroke="#5D5E5F" stroke-linecap="round" stroke-linejoin="round" />
           </svg>
         </button>
+        <ul class="select-menu hidden absolute top-12 left-0 w-full items-center justify-center flex-col gap-1 mt-1">
+          <li class="w-full"><a class="option border border-[#5D5D5D] text-white font-bold p-2.5 w-full block rounded-lg text-sm" href="./about/en.html">EN</a></li>
+          <li class="w-full"><a class="option border border-[#5D5D5D] text-white font-bold p-2.5 w-full block rounded-lg text-sm" href="./about/ru.html">RU</a></li>
+        </ul>
+     
       </div>
-      <button id="headerMenuBtn" class="text-3xl md:hidden flex text-white">
+      <button id="headerMenuBtn" class="text-3xl lg:hidden flex text-white">
         <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><style>svg{fill:#ffffff}</style><path d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"/></svg>
       </button>
     </div>
     <div id="headerResponsiveMenu" class="w-[90vw] translate-x-full transition-transform h-screen fixed top-0 right-0 bg-[#333] pt-9 px-5">
       <div class="flex justify-end">
-        <button id="headerResponsiveBtn" class="text-3xl md:hidden flex text-white">
+        <button id="headerResponsiveBtn" class="text-3xl lg:hidden flex text-white">
           <svg xmlns="http://www.w3.org/2000/svg" height="1.2em" viewBox="0 0 384 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M342.6 150.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L192 210.7 86.6 105.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L146.7 256 41.4 361.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L192 301.3 297.4 406.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L237.3 256 342.6 150.6z"/></svg>
         </button>   
       </div>  
       <div class="flex flex-col items-center justify-center pt-24">
         <ul class="flex flex-col gap-10 items-center mb-8">
-          <li><a class="text-white text-base font-semibold hover:text-[#0086EE]" href="./index.html">Bosh sahifa </a></li>
-          <li><a class="text-white text-base font-semibold hover:text-[#0086EE]" href="./services.html">Xizmatlar</a></li>
-          <li><a class="text-[#0086EE] hover:text-[#0086EE] text-base font-semibold" href="./news.html">Yangiliklar</a></li>
-          <li><a class="text-white text-base font-semibold hover:text-[#0086EE]" href="./employees.html">Hodimlar</a></li>
-          <li><a class="text-white text-base font-semibold hover:text-[#0086EE]" href="./elonlar.html">Vakansiya</a></li>
+          <li><a class="text-white text-base font-semibold" href="../index.html">Bosh sahifa </a></li>
+          <li><a class="text-white text-base font-semibold" href="../services.html">Xizmatlar</a></li>
+          <li><a class="text-white text-base font-semibold" href="../news.html">Yangiliklar</a></li>
+          <li><a class="text-white text-base font-semibold" href="../employees.html">Xodimlar</a></li>
+          <li><a class="text-white text-base font-semibold" href="../elonlar.html">Vakansiya</a></li>
         </ul>
         <a class="text-[#D9FFFF] text-sm font-bold  bg-[#0086EE] rounded-lg py-2.5 px-12 border border-transparent hover:border-[#0086EE] hover:bg-transparent transition-all"
-          style="box-shadow: 0px 1px 14px -4px #016079;" href="./index.html#contact">Bog’lanish</a>
+          style="box-shadow: 0px 1px 14px -4px #016079;" href="../index.html#contact">Ulanish</a>
 
       </div>
     </div>

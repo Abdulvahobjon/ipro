@@ -4,11 +4,12 @@
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>Hodimlar</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hodimlar</title>
+  <link rel="stylesheet" href="./css/animate.min.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
-  <link rel="stylesheet" href="../css/styles.css">
-  <link rel="shortcut icon" href="../img/favicon.png" type="image/x-icon">
+  <link rel="stylesheet" href="./css/styles.css">
+  <link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon">
 
 </head>
 
@@ -17,7 +18,7 @@
   <!-- header -->
   <header class="relative top-0 left-0 right-0 z-50 w-full pt-9 pb-7 bg-[rgba(255,255,255,0.04)]" >
     <div class="max-w-[1322px] mx-auto px-5 flex items-center justify-between">
-      <a href="./en.html" class="flex">
+      <a href="../index.html" class="flex">
         <svg xmlns="http://www.w3.org/2000/svg" width="99" height="32" viewBox="0 0 99 32" fill="none">
           <g clip-path="url(#clip0_129_4648)">
             <path
@@ -96,20 +97,20 @@
       </a>
       <div class="items-center ml-auto gap-10 hidden lg:flex">
         <ul class="flex gap-10 items-center">
-          <li><a class="text-white text-base font-semibold" href="../index.html">Homepage </a></li>
-          <li><a class="text-white text-base font-semibold" href="../services.html">Services</a></li>
-          <li><a class="text-white text-base font-semibold" href="../news.html">News</a></li>
-          <li><a class="text-white text-base font-semibold" href="../employees.html">Employees</a></li>
-          <li><a class="text-white text-base font-semibold" href="../elonlar.html">Vacancy</a></li>
+          <li><a class="text-white text-base font-semibold" href="../index.html">Домашняя страница </a></li>
+          <li><a class="text-white text-base font-semibold" href="../services.html">Услуги</a></li>
+          <li><a class="text-white text-base font-semibold" href="../news.html">Новости</a></li>
+          <li><a class="text-white text-base font-semibold" href="../employees.html">Сотрудники</a></li>
+          <li><a class="text-white text-base font-semibold" href="../elonlar.html">Вакансия</a></li>
         </ul>
         <a class="text-[#D9FFFF] text-sm font-bold  bg-[#0086EE] rounded-lg py-2.5 px-12 border border-transparent hover:border-[#0086EE] hover:bg-transparent transition-all"
-          style="box-shadow: 0px 1px 14px -4px #016079;" href="../index.html#contact">Connection</a>
+          style="box-shadow: 0px 1px 14px -4px #016079;" href="../index.html#contact">Связь</a>
        
         
       </div>
       <div class="flex flex-col relative lg:ml-5 ml-auto mr-5 lg:mr-0">
         <button id="select-btn" class=" flex items-center gap-3 py-2 px-2.5 border border-[#5D5D5D] rounded-lg">
-          <span class="text-white text-sm font-semibold">EN</span>
+          <span class="text-white text-sm font-semibold">RU</span>
           <svg xmlns="http://www.w3.org/2000/svg" width="26" height="24" viewBox="0 0 26 24" fill="none">
             <path
               d="M3.19863 11H5.23523C6.39178 11 7.32935 11.8954 7.32935 13V14C7.32935 15.1046 8.26692 16 9.42347 16C10.58 16 11.5176 16.8954 11.5176 18V20.9451M8.37641 3.93552V5.5C8.37641 6.88071 9.54837 8 10.9941 8H11.5176C12.6741 8 13.6117 8.89543 13.6117 10C13.6117 11.1046 14.5493 12 15.7058 12C16.8624 12 17.7999 11.1046 17.7999 10C17.7999 8.89543 18.7375 8 19.8941 8L21.0086 8M15.7058 20.4879V18C15.7058 16.8954 16.6434 16 17.7999 16H21.0086M21.9882 12C21.9882 16.9706 17.7691 21 12.5646 21C7.36017 21 3.14111 16.9706 3.14111 12C3.14111 7.02944 7.36017 3 12.5646 3C17.7691 3 21.9882 7.02944 21.9882 12Z"
@@ -118,7 +119,7 @@
         </button>
         <ul class="select-menu hidden absolute top-12 left-0 w-full items-center justify-center flex-col gap-1 mt-1">
           <li class="w-full"><a class="option border border-[#5D5D5D] text-white font-bold p-2.5 w-full block rounded-lg text-sm" href="../about.html">UZ</a></li>
-          <li class="w-full"><a class="option border border-[#5D5D5D] text-white font-bold p-2.5 w-full block rounded-lg text-sm" href="../about/ru.html">RU</a></li>
+          <li class="w-full"><a class="option border border-[#5D5D5D] text-white font-bold p-2.5 w-full block rounded-lg text-sm" href="../about/en.html">EN</a></li>
         </ul>
      
       </div>
@@ -134,98 +135,233 @@
       </div>  
       <div class="flex flex-col items-center justify-center pt-24">
         <ul class="flex flex-col gap-10 items-center mb-8">
-          <li><a class="text-white text-base font-semibold" href="../index.html">Homepage </a></li>
-          <li><a class="text-white text-base font-semibold" href="../services.html">Services</a></li>
-          <li><a class="text-white text-base font-semibold" href="../news.html">News</a></li>
-          <li><a class="text-white text-base font-semibold" href="../employees.html">Employees</a></li>
-          <li><a class="text-white text-base font-semibold" href="../elonlar.html">Vacancy</a></li>
+          <li><a class="text-white text-base font-semibold" href="../index.html">Домашняя страница </a></li>
+          <li><a class="text-white text-base font-semibold" href="../services.html">Услуги</a></li>
+          <li><a class="text-white text-base font-semibold" href="../news.html">Новости</a></li>
+          <li><a class="text-white text-base font-semibold" href="../employees.html">Сотрудники</a></li>
+          <li><a class="text-white text-base font-semibold" href="../elonlar.html">Вакансия</a></li>
         </ul>
         <a class="text-[#D9FFFF] text-sm font-bold  bg-[#0086EE] rounded-lg py-2.5 px-12 border border-transparent hover:border-[#0086EE] hover:bg-transparent transition-all"
-          style="box-shadow: 0px 1px 14px -4px #016079;" href="../index.html#contact">Connection</a>
+          style="box-shadow: 0px 1px 14px -4px #016079;" href="../index.html#contact">Связь</a>
 
       </div>
     </div>
   </header>
 
-
-  <section class="pt-10 pb-[264px]">
-    <div class="max-w-[1322px] mx-auto px-5 relative">
-      <div class="flex justify-center mb-20" >
-        <img src="../img/logo-about.svg" alt="about logo">
-      </div>
-      <div class="max-w-[760px]" >
-        <h2 class="text-white text-[32px] font-bold leading-tight mb-8">About IPRO</h2>
-        <p class="text-white text-2xl mb-16">iPRO IT and M&M group ga 2021-yil 22-iyul sanasida asos solingan. Shu
-          kundan boshlab professional ish faoliyatini boshlagan. Shu kungacha ko'plab brenlar bilan ishlagan va ishlab
-          kelmoqda!
-          Kompaniya tashkil etilgan paytda jamoa atigi 10 kishidan iborat edi, endilikda esa jamoada +100 mutaxassislar
-          faoliyat olib boradi. Bu odamlar kompaniya maqsadiga ishonib, loyihaning rivojlanishiga hissa qo'shishga
-          intilishdi. Bugungi kunga qadar bu odamlar kompaniyaga sodiq qolgan holda, o'z jamoalarini turli
-          yo'nalishlarda (Backend, Frontend, QA, Mobile, Analytics, Marketing Team va boshqalar) rivojlantirib
-          kelmoqdalar.iPRO IT and M&M group ga 2021-yil 22-iyul sanasida asos solingan. Shu kundan boshlab professional
-          ish faoliyatini boshlagan. Shu kungacha ko'plab brenlar bilan ishlagan va ishlab kelmoqda!
-        </p>
-        <a href="../index.html#contact"
-          class="py-3 px-12 rounded-lg bg-[#0086EE] shadow-about-btn text-[#D9FFFF] text-sm font-bold">Connection</a>
-
-      </div>
-      <div hidden
-        class="w-[832px] h-[832px] border-[66px] border-[#0086EE] rounded-full shadow-about-disc absolute top-[180px] -right-[487px]">
-        <div class="w-[430px] h-[113px] bg-[#0F4A78] flex items-center relative">
-          <div class="absolute top-0 left-0 flex items-center">
-            <svg xmlns="http://www.w3.org/2000/svg" width="121" height="113" viewBox="0 0 121 113" fill="none">
-              <path
-                d="M18.2359 60.4448C16.8489 57.9978 16.849 55.0022 18.2359 52.5552L28.9443 33.6625L39.9517 14.9424C41.3773 12.5178 43.9716 11.02 46.7843 10.9976L68.5 10.825L90.2158 10.9976C93.0284 11.02 95.6227 12.5178 97.0483 14.9424L108.056 33.6625L118.764 52.5552C120.151 55.0022 120.151 57.9978 118.764 60.4448L108.056 79.3375L97.0483 98.0576C95.6227 100.482 93.0284 101.98 90.2158 102.002L68.5 102.175L46.7843 102.002C43.9716 101.98 41.3773 100.482 39.9517 98.0576L28.9443 79.3375L18.2359 60.4448Z"
-                fill="white" fill-opacity="0.69" />
-              <g filter="url(#filter0_d_1103_413)">
-                <path
-                  d="M-32.7641 60.4448C-34.151 57.9978 -34.151 55.0022 -32.7641 52.5552L-18.1108 26.7025L-3.04835 1.08601C-1.62266 -1.33862 0.971602 -2.83643 3.78425 -2.85878L33.5 -3.095L63.2157 -2.85878C66.0284 -2.83643 68.6227 -1.33863 70.0483 1.08602L85.1108 26.7025L99.7641 52.5552C101.151 55.0022 101.151 57.9978 99.7641 60.4448L85.1108 86.2975L70.0483 111.914C68.6227 114.339 66.0284 115.836 63.2157 115.859L33.5 116.095L3.78426 115.859C0.971607 115.836 -1.62266 114.339 -3.04834 111.914L-18.1108 86.2975L-32.7641 60.4448Z"
-                  fill="#0F4A78" />
-              </g>
-              <defs>
-                <filter id="filter0_d_1103_413" x="-39.8043" y="-11.095" width="150.609" height="135.19"
-                  filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-                  <feFlood flood-opacity="0" result="BackgroundImageFix" />
-                  <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
-                    result="hardAlpha" />
-                  <feOffset dx="2" />
-                  <feGaussianBlur stdDeviation="4" />
-                  <feComposite in2="hardAlpha" operator="out" />
-                  <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.78 0" />
-                  <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_1103_413" />
-                  <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_1103_413" result="shape" />
-                </filter>
-              </defs>
-            </svg>
+  <section class="bg-[#141415] pt-16 pb-16">
+    <div class="max-w-[1322px] mx-auto px-5">
+      <style>
+        h1::after {
+          text-shadow: 0 0 2px rgba(255, 255, 255, 0.25);
+        }
+      </style>
+      <h1
+        class="md:text-[64px] text-4xl  font-semibold text-white  text-center mb-24 relative after:text-[#141415] after:content-['hodimlar'] after:absolute after:top-1/2 after:left-1/2 after:-translate-x-1/2 after:-translate-y-1/2 after:block after:text-[68px] md:after:text-[128px] after:z-10 uppercase">
+        <span class="relative z-30">hodimlar</span>
+      </h1>
+      <div class="grid lg:grid-cols-4 md:grid-cols-2 gap-5 mb-5">
+        <div style="background-color: #e74c3c;" data-wow-duration="2100ms"
+          class="h-96 w-full bg-cover animate__bounceInLeft wow py-6 px-3 flex gap-5 items-end relative cursor-pointer group overflow-hidden bg-[linear-gradient(147deg,rgba(37,37,39,0.00)0%,rgba(2,134,239,0.20)98.75%),url('../img/hodim/img-1.png')] hover:!bg-[url('../img/hodim/img-1.png')]">
+          <h3 class="text-xl font-semibold text-white"><span class="block">Asadov</span> <span
+              class="block">Abdurauf</span></h3>
+          <p class="font-semibold text-white">Web dasturchi</p>
+          <div
+            class="bg-[rgba(255,255,255,0.75)] absolute bottom-0 left-0 pt-5 pb-8 px-5 group-hover:translate-y-0 translate-y-full transition-all"
+            style="backdrop-filter: blur(4.5px);">
+            <div class="flex justify-between items-center mb-2">
+              <h4 class="text-base font-semibold"><span>Asadova </span><span class="font-normal">Malika</span></h4>
+              <p class="text-xs text-[#141619]">Grafik dizayner</p>
+            </div>
+            <p class="text-xs">Malika 2020 -yildan buyon yildan beri grafik dizayn sohasida ishlab kelmoqda.
+            </p>
           </div>
-          
-          <div class="pl-[133px]">
-            <h3 class="mb-1 text-white text-lg font-semibold">Ux/Ui dizayn</h3>
-            <p class="text-white text-xs">Bu soha bo’yicha batafsil ma’lumotni bilib oling.Videoni tomosha qiling</p>
+        </div>
+        <div data-wow-duration="1900ms"
+          class="animate__bounceInLeft wow h-96 w-full bg-cover py-6 px-3 flex gap-5 items-end relative cursor-pointer group overflow-hidden bg-[linear-gradient(147deg,rgba(37,37,39,0.00)0%,rgba(2,134,239,0.20)98.75%),url('../img/hodim/img-1.png')] hover:!bg-[url('../img/hodim/img-1.png')]">
+          <h3 class="text-xl font-semibold text-white"><span class="block">Asadov</span> <span
+              class="block">Abdurauf</span></h3>
+          <p class="font-semibold text-white">Web dasturchi</p>
+          <div
+            class="bg-[rgba(255,255,255,0.75)] absolute bottom-0 left-0 pt-5 pb-8 px-5 group-hover:translate-y-0 translate-y-full transition-all"
+            style="backdrop-filter: blur(4.5px);">
+            <div class="flex justify-between items-center mb-2">
+              <h4 class="text-base font-semibold"><span>Asadova </span><span class="font-normal">Malika</span></h4>
+              <p class="text-xs text-[#141619]">Grafik dizayner</p>
+            </div>
+            <p class="text-xs">Malika 2020 -yildan buyon yildan beri grafik dizayn sohasida ishlab kelmoqda.
+            </p>
           </div>
-          <svg width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <circle cx="30" cy="30" r="30" fill="white" fill-opacity="0.65" />
-            <circle cx="30" cy="30" r="25" fill="white" fill-opacity="0.7" />
-            <circle cx="30" cy="30" r="20" fill="white" />
-            <g clip-path="url(#clip0_717_2525)">
-              <path d="M27 37.5L34.5 30L27 22.5V37.5Z" fill="#0186EF" />
-            </g>
-            <defs>
-              <clipPath id="clip0_717_2525">
-                <rect width="36" height="36" fill="white" transform="translate(12 12)" />
-              </clipPath>
-            </defs>
-          </svg>
+        </div>
+        <div data-wow-duration="1700ms" 
+          class="h-96 w-full bg-cover py-6 px-3 flex animate__bounceInLeft wow gap-5 items-end relative cursor-pointer group overflow-hidden bg-[linear-gradient(147deg,rgba(37,37,39,0.00)0%,rgba(2,134,239,0.20)98.75%),url('../img/hodim/img-1.png')] hover:!bg-[url('../img/hodim/img-1.png')]">
+          <h3 class="text-xl font-semibold text-white"><span class="block">Asadov</span> <span
+              class="block">Abdurauf</span></h3>
+          <p class="font-semibold text-white">Web dasturchi</p>
+          <div
+            class="bg-[rgba(255,255,255,0.75)] absolute bottom-0 left-0 pt-5 pb-8 px-5 group-hover:translate-y-0 translate-y-full transition-all"
+            style="backdrop-filter: blur(4.5px);">
+            <div class="flex justify-between items-center mb-2">
+              <h4 class="text-base font-semibold"><span>Asadova </span><span class="font-normal">Malika</span></h4>
+              <p class="text-xs text-[#141619]">Grafik dizayner</p>
+            </div>
+            <p class="text-xs">Malika 2020 -yildan buyon yildan beri grafik dizayn sohasida ishlab kelmoqda.
+            </p>
+          </div>
+        </div>
+        <div data-wow-duration="1500ms" 
+          class="h-96 w-full bg-cover py-6 px-3 flex animate__bounceInLeft wow gap-5 items-end relative cursor-pointer group overflow-hidden bg-[linear-gradient(147deg,rgba(37,37,39,0.00)0%,rgba(2,134,239,0.20)98.75%),url('../img/hodim/img-1.png')] hover:!bg-[url('../img/hodim/img-1.png')]">
+          <h3 class="text-xl font-semibold text-white"><span class="block">Asadov</span> <span
+              class="block">Abdurauf</span></h3>
+          <p class="font-semibold text-white">Web dasturchi</p>
+          <div
+            class="bg-[rgba(255,255,255,0.75)] absolute bottom-0 left-0 pt-5 pb-8 px-5 group-hover:translate-y-0 translate-y-full transition-all"
+            style="backdrop-filter: blur(4.5px);">
+            <div class="flex justify-between items-center mb-2">
+              <h4 class="text-base font-semibold"><span>Asadova </span><span class="font-normal">Malika</span></h4>
+              <p class="text-xs text-[#141619]">Grafik dizayner</p>
+            </div>
+            <p class="text-xs">Malika 2020 -yildan buyon yildan beri grafik dizayn sohasida ishlab kelmoqda.
+            </p>
+          </div>
+        </div>
+        
+        <div  data-wow-duration="2100ms"
+          class="h-96 w-full animate__bounceInLeft wow bg-cover py-6 px-3 flex gap-5 items-end relative cursor-pointer group overflow-hidden bg-[linear-gradient(147deg,rgba(37,37,39,0.00)0%,rgba(2,134,239,0.20)98.75%),url('../img/hodim/img-1.png')] hover:!bg-[url('../img/hodim/img-1.png')]">
+          <h3 class="text-xl font-semibold text-white"><span class="block">Asadov</span> <span
+              class="block">Abdurauf</span></h3>
+          <p class="font-semibold text-white">Web dasturchi</p>
+          <div
+            class="bg-[rgba(255,255,255,0.75)] absolute bottom-0 left-0 pt-5 pb-8 px-5 group-hover:translate-y-0 translate-y-full transition-all"
+            style="backdrop-filter: blur(4.5px);">
+            <div class="flex justify-between items-center mb-2">
+              <h4 class="text-base font-semibold"><span>Asadova </span><span class="font-normal">Malika</span></h4>
+              <p class="text-xs text-[#141619]">Grafik dizayner</p>
+            </div>
+            <p class="text-xs">Malika 2020 -yildan buyon yildan beri grafik dizayn sohasida ishlab kelmoqda.
+            </p>
+          </div>
+        </div>
+        <div data-wow-duration="1900ms" 
+          class="h-96 w-full bg-cover py-6 px-3 flex animate__bounceInLeft wow gap-5 items-end relative cursor-pointer group overflow-hidden bg-[linear-gradient(147deg,rgba(37,37,39,0.00)0%,rgba(2,134,239,0.20)98.75%),url('../img/hodim/img-1.png')] hover:!bg-[url('../img/hodim/img-1.png')]">
+          <h3 class="text-xl font-semibold text-white"><span class="block">Asadov</span> <span
+              class="block">Abdurauf</span></h3>
+          <p class="font-semibold text-white">Web dasturchi</p>
+          <div
+            class="bg-[rgba(255,255,255,0.75)] absolute bottom-0 left-0 pt-5 pb-8 px-5 group-hover:translate-y-0 translate-y-full transition-all"
+            style="backdrop-filter: blur(4.5px);">
+            <div class="flex justify-between items-center mb-2">
+              <h4 class="text-base font-semibold"><span>Asadova </span><span class="font-normal">Malika</span></h4>
+              <p class="text-xs text-[#141619]">Grafik dizayner</p>
+            </div>
+            <p class="text-xs">Malika 2020 -yildan buyon yildan beri grafik dizayn sohasida ishlab kelmoqda.
+            </p>
+          </div>
+        </div>
+        <div data-wow-duration="1700ms" 
+          class="h-96 w-full bg-cover py-6 px-3 flex animate__bounceInLeft wow gap-5 items-end relative cursor-pointer group overflow-hidden bg-[linear-gradient(147deg,rgba(37,37,39,0.00)0%,rgba(2,134,239,0.20)98.75%),url('../img/hodim/img-1.png')] hover:!bg-[url('../img/hodim/img-1.png')]">
+          <h3 class="text-xl font-semibold text-white"><span class="block">Asadov</span> <span
+              class="block">Abdurauf</span></h3>
+          <p class="font-semibold text-white">Web dasturchi</p>
+          <div
+            class="bg-[rgba(255,255,255,0.75)] absolute bottom-0 left-0 pt-5 pb-8 px-5 group-hover:translate-y-0 translate-y-full transition-all"
+            style="backdrop-filter: blur(4.5px);">
+            <div class="flex justify-between items-center mb-2">
+              <h4 class="text-base font-semibold"><span>Asadova </span><span class="font-normal">Malika</span></h4>
+              <p class="text-xs text-[#141619]">Grafik dizayner</p>
+            </div>
+            <p class="text-xs">Malika 2020 -yildan buyon yildan beri grafik dizayn sohasida ishlab kelmoqda.
+            </p>
+          </div>
+        </div>
+        <div data-wow-duration="1500ms" 
+          class="h-96 w-full bg-cover py-6 px-3 flex animate__bounceInLeft wow gap-5 items-end relative cursor-pointer group overflow-hidden bg-[linear-gradient(147deg,rgba(37,37,39,0.00)0%,rgba(2,134,239,0.20)98.75%),url('../img/hodim/img-1.png')] hover:!bg-[url('../img/hodim/img-1.png')]">
+          <h3 class="text-xl font-semibold text-white"><span class="block">Asadov</span> <span
+              class="block">Abdurauf</span></h3>
+          <p class="font-semibold text-white">Web dasturchi</p>
+          <div
+            class="bg-[rgba(255,255,255,0.75)] absolute bottom-0 left-0 pt-5 pb-8 px-5 group-hover:translate-y-0 translate-y-full transition-all"
+            style="backdrop-filter: blur(4.5px);">
+            <div class="flex justify-between items-center mb-2">
+              <h4 class="text-base font-semibold"><span>Asadova </span><span class="font-normal">Malika</span></h4>
+              <p class="text-xs text-[#141619]">Grafik dizayner</p>
+            </div>
+            <p class="text-xs">Malika 2020 -yildan buyon yildan beri grafik dizayn sohasida ishlab kelmoqda.
+            </p>
+          </div>
+        </div>
+        <div data-wow-duration="2100ms" 
+          class="h-96 w-full bg-cover py-6 px-3 flex animate__bounceInLeft wow gap-5 items-end relative cursor-pointer group overflow-hidden bg-[linear-gradient(147deg,rgba(37,37,39,0.00)0%,rgba(2,134,239,0.20)98.75%),url('../img/hodim/img-1.png')] hover:!bg-[url('../img/hodim/img-1.png')]">
+          <h3 class="text-xl font-semibold text-white"><span class="block">Asadov</span> <span
+              class="block">Abdurauf</span></h3>
+          <p class="font-semibold text-white">Web dasturchi</p>
+          <div
+            class="bg-[rgba(255,255,255,0.75)] absolute bottom-0 left-0 pt-5 pb-8 px-5 group-hover:translate-y-0 translate-y-full transition-all"
+            style="backdrop-filter: blur(4.5px);">
+            <div class="flex justify-between items-center mb-2">
+              <h4 class="text-base font-semibold"><span>Asadova </span><span class="font-normal">Malika</span></h4>
+              <p class="text-xs text-[#141619]">Grafik dizayner</p>
+            </div>
+            <p class="text-xs">Malika 2020 -yildan buyon yildan beri grafik dizayn sohasida ishlab kelmoqda.
+            </p>
+          </div>
+        </div>
+        <div data-wow-duration="1900ms" 
+          class="h-96 w-full bg-cover py-6 px-3 flex animate__bounceInLeft wow gap-5 items-end relative cursor-pointer group overflow-hidden bg-[linear-gradient(147deg,rgba(37,37,39,0.00)0%,rgba(2,134,239,0.20)98.75%),url('../img/hodim/img-1.png')] hover:!bg-[url('../img/hodim/img-1.png')]">
+          <h3 class="text-xl font-semibold text-white"><span class="block">Asadov</span> <span
+              class="block">Abdurauf</span></h3>
+          <p class="font-semibold text-white">Web dasturchi</p>
+          <div
+            class="bg-[rgba(255,255,255,0.75)] absolute bottom-0 left-0 pt-5 pb-8 px-5 group-hover:translate-y-0 translate-y-full transition-all"
+            style="backdrop-filter: blur(4.5px);">
+            <div class="flex justify-between items-center mb-2">
+              <h4 class="text-base font-semibold"><span>Asadova </span><span class="font-normal">Malika</span></h4>
+              <p class="text-xs text-[#141619]">Grafik dizayner</p>
+            </div>
+            <p class="text-xs">Malika 2020 -yildan buyon yildan beri grafik dizayn sohasida ishlab kelmoqda.
+            </p>
+          </div>
+        </div>
+        <div data-wow-duration="1700ms" 
+          class="h-96 w-full bg-cover py-6 px-3 flex animate__bounceInLeft wow gap-5 items-end relative cursor-pointer group overflow-hidden bg-[linear-gradient(147deg,rgba(37,37,39,0.00)0%,rgba(2,134,239,0.20)98.75%),url('../img/hodim/img-1.png')] hover:!bg-[url('../img/hodim/img-1.png')]">
+          <h3 class="text-xl font-semibold text-white"><span class="block">Asadov</span> <span
+              class="block">Abdurauf</span></h3>
+          <p class="font-semibold text-white">Web dasturchi</p>
+          <div
+            class="bg-[rgba(255,255,255,0.75)] absolute bottom-0 left-0 pt-5 pb-8 px-5 group-hover:translate-y-0 translate-y-full transition-all"
+            style="backdrop-filter: blur(4.5px);">
+            <div class="flex justify-between items-center mb-2">
+              <h4 class="text-base font-semibold"><span>Asadova </span><span class="font-normal">Malika</span></h4>
+              <p class="text-xs text-[#141619]">Grafik dizayner</p>
+            </div>
+            <p class="text-xs">Malika 2020 -yildan buyon yildan beri grafik dizayn sohasida ishlab kelmoqda.
+            </p>
+          </div>
+        </div>
+        <div data-wow-duration="1500ms" 
+          class="h-96 w-full bg-cover py-6 px-3 flex animate__bounceInLeft wow gap-5 items-end relative cursor-pointer group overflow-hidden bg-[linear-gradient(147deg,rgba(37,37,39,0.00)0%,rgba(2,134,239,0.20)98.75%),url('../img/hodim/img-1.png')] hover:!bg-[url('../img/hodim/img-1.png')]">
+          <h3 class="text-xl font-semibold text-white"><span class="block">Asadov</span> <span
+              class="block">Abdurauf</span></h3>
+          <p class="font-semibold text-white">Web dasturchi</p>
+          <div
+            class="bg-[rgba(255,255,255,0.75)] absolute bottom-0 left-0 pt-5 pb-8 px-5 group-hover:translate-y-0 translate-y-full transition-all"
+            style="backdrop-filter: blur(4.5px);">
+            <div class="flex justify-between items-center mb-2">
+              <h4 class="text-base font-semibold"><span>Asadova </span><span class="font-normal">Malika</span></h4>
+              <p class="text-xs text-[#141619]">Grafik dizayner</p>
+            </div>
+            <p class="text-xs">Malika 2020 -yildan buyon yildan beri grafik dizayn sohasida ishlab kelmoqda.
+            </p>
+          </div>
         </div>
       </div>
     </div>
   </section>
 
-
+ 
 
   <!-- footer  -->
-   <!-- footer  -->
-   <footer class="py-16 bg-[#1D1D1D]">
+  <!-- footer  -->
+  <footer class="py-16 bg-[#1D1D1D]">
     <div class="max-w-[1322px] mx-auto px-5 lg:flex  items-center gap-40">
       <svg class="flex-shrink-0 mb-8 lg:mb-0" xmlns="http://www.w3.org/2000/svg" width="171" height="56"
         viewBox="0 0 171 56" fill="none">
@@ -350,10 +486,10 @@
         <div class="md:max-w-[249px]">
           <h3 class="text-xl text-white font-bold mb-7">Linklar</h3>
           <ul class="flex flex-col gap-4">
-            <li><a class="text-base font-semibold text-white" href="../news.html">Yangiliklar</a></li>
-            <li><a class="text-base font-semibold text-white" href="../services.html">Xizmatlar</a></li>
-            <li><a class="text-base font-semibold text-white" href="../employees.html">Hodimlar</a></li>
-            <li><a class="text-base font-semibold text-white" href="../elonlar.html">Vakansiya</a></li>
+            <li><a class="text-base font-semibold text-white" href="./news.html">Yangiliklar</a></li>
+            <li><a class="text-base font-semibold text-white" href="./services.html">Xizmatlar</a></li>
+            <li><a class="text-base font-semibold text-white" href="./employees.html">Hodimlar</a></li>
+            <li><a class="text-base font-semibold text-white" href="./elonlar.html">Vakansiya</a></li>
           </ul>
         </div>
         <div>
@@ -396,11 +532,19 @@
   </footer>
 
 
-
-
-
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.20.0/prism.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.20.0/plugins/autoloader/prism-autoloader.min.js"></script>
+  <!-- Fork Corner Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/fork-corner/dist/fork-corner.min.js" defer></script>
+  <script src="./js/wow.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-  <script src="../js/app.js"></script>
+  <script src="./js/app.js"></script>
+  <script>
+    var options = document.querySelectorAll('option');
+    options.forEach(function (option) {
+      option.style.padding = '15px';
+    });
+  </script>
 </body>
 
 </html>
