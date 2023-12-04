@@ -563,17 +563,14 @@ video {
 .ml-auto{
   margin-left: auto;
 }
+.mr-5{
+  margin-right: 1.25rem;
+}
 .mt-1{
   margin-top: 0.25rem;
 }
 .mt-auto{
   margin-top: auto;
-}
-.mr-5{
-  margin-right: 1.25rem;
-}
-.ml-5{
-  margin-left: 1.25rem;
 }
 .block{
   display: block;
@@ -881,10 +878,6 @@ video {
   --tw-bg-opacity: 1;
   background-color: rgb(29 29 29 / var(--tw-bg-opacity));
 }
-.bg-\[\#1d1d1e\]{
-  --tw-bg-opacity: 1;
-  background-color: rgb(29 29 30 / var(--tw-bg-opacity));
-}
 .bg-\[\#252525\]{
   --tw-bg-opacity: 1;
   background-color: rgb(37 37 37 / var(--tw-bg-opacity));
@@ -896,6 +889,9 @@ video {
 .bg-\[\#333\]{
   --tw-bg-opacity: 1;
   background-color: rgb(51 51 51 / var(--tw-bg-opacity));
+}
+.bg-\[rgba\(255\2c 255\2c 255\2c \.24\)\]{
+  background-color: rgba(255,255,255,.24);
 }
 .bg-\[rgba\(255\2c 255\2c 255\2c 0\.04\)\]{
   background-color: rgba(255,255,255,0.04);
@@ -1191,10 +1187,6 @@ video {
   --tw-text-opacity: 1;
   color: rgb(0 134 238 / var(--tw-text-opacity));
 }
-.text-\[\#0086ee\]{
-  --tw-text-opacity: 1;
-  color: rgb(0 134 238 / var(--tw-text-opacity));
-}
 .text-\[\#015E74\]{
   --tw-text-opacity: 1;
   color: rgb(1 94 116 / var(--tw-text-opacity));
@@ -1353,8 +1345,20 @@ body{
   --tw-content: '';
   content: var(--tw-content);
 }
+.after\:content-\[\'Employees\'\]::after{
+  --tw-content: 'Employees';
+  content: var(--tw-content);
+}
+.after\:content-\[\'NEWS\'\]::after{
+  --tw-content: 'NEWS';
+  content: var(--tw-content);
+}
 .after\:content-\[\'Porfolio\'\]::after{
   --tw-content: 'Porfolio';
+  content: var(--tw-content);
+}
+.after\:content-\[\'SERVICES\'\]::after{
+  --tw-content: 'SERVICES';
   content: var(--tw-content);
 }
 .after\:content-\[\'VACANCY\'\]::after{
@@ -1381,6 +1385,18 @@ body{
   --tw-content: 'ВАКАНСИЯ';
   content: var(--tw-content);
 }
+.after\:content-\[\'\41D\41E\412\41E\421\422\418\'\]::after{
+  --tw-content: 'НОВОСТИ';
+  content: var(--tw-content);
+}
+.after\:content-\[\'\421\43E\442\440\443\434\43D\438\43A\438\'\]::after{
+  --tw-content: 'Сотрудники';
+  content: var(--tw-content);
+}
+.after\:content-\[\'\423\421\41B\423\413\418\'\]::after{
+  --tw-content: 'УСЛУГИ';
+  content: var(--tw-content);
+}
 .hover\:border-\[\#0086EE\]:hover{
   --tw-border-opacity: 1;
   border-color: rgb(0 134 238 / var(--tw-border-opacity));
@@ -1398,14 +1414,6 @@ body{
 }
 .hover\:\!bg-\[url\(\'\.\.\/img\/hodim\/img-1\.png\'\)\]:hover{
   background-image: url('../img/hodim/img-1.png') !important;
-}
-.hover\:text-\[\#0086EE\]:hover{
-  --tw-text-opacity: 1;
-  color: rgb(0 134 238 / var(--tw-text-opacity));
-}
-.hover\:text-\[\#0086ee\]:hover{
-  --tw-text-opacity: 1;
-  color: rgb(0 134 238 / var(--tw-text-opacity));
 }
 .hover\:shadow-custom:hover{
   --tw-shadow: 0px 0px 10px 2px #0186EF;
@@ -1435,15 +1443,6 @@ body{
   }
   .md\:mb-\[216px\]{
     margin-bottom: 216px;
-  }
-  .md\:ml-5{
-    margin-left: 1.25rem;
-  }
-  .md\:flex{
-    display: flex;
-  }
-  .md\:hidden{
-    display: none;
   }
   .md\:max-w-\[249px\]{
     max-width: 249px;
@@ -1497,11 +1496,11 @@ body{
   .lg\:mb-0{
     margin-bottom: 0px;
   }
-  .lg\:mr-0{
-    margin-right: 0px;
-  }
   .lg\:ml-5{
     margin-left: 1.25rem;
+  }
+  .lg\:mr-0{
+    margin-right: 0px;
   }
   .lg\:block{
     display: block;
