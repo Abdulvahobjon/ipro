@@ -878,6 +878,10 @@ video {
   --tw-bg-opacity: 1;
   background-color: rgb(29 29 29 / var(--tw-bg-opacity));
 }
+.bg-\[\#1d1d1e\]{
+  --tw-bg-opacity: 1;
+  background-color: rgb(29 29 30 / var(--tw-bg-opacity));
+}
 .bg-\[\#252525\]{
   --tw-bg-opacity: 1;
   background-color: rgb(37 37 37 / var(--tw-bg-opacity));
@@ -889,9 +893,6 @@ video {
 .bg-\[\#333\]{
   --tw-bg-opacity: 1;
   background-color: rgb(51 51 51 / var(--tw-bg-opacity));
-}
-.bg-\[rgba\(255\2c 255\2c 255\2c \.24\)\]{
-  background-color: rgba(255,255,255,.24);
 }
 .bg-\[rgba\(255\2c 255\2c 255\2c 0\.04\)\]{
   background-color: rgba(255,255,255,0.04);
@@ -908,6 +909,12 @@ video {
 .bg-white{
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+.bg-\[\#\]{
+  background-color: #;
+}
+.bg-\[\#1d1d\]{
+  background-color: #1d1d;
 }
 .bg-\[linear-gradient\(118deg\2c rgba\(0\2c 134\2c 238\2c 0\.63\)0\%\2c rgba\(0\2c 0\2c 0\2c 0\.54\)43\.8\%\)\2c url\(\'\.\.\/img\/porfolio\/1\.png\'\)\]{
   background-image: linear-gradient(118deg,rgba(0,134,238,0.63)0%,rgba(0,0,0,0.54)43.8%),url('../img/porfolio/1.png');
@@ -1101,6 +1108,15 @@ video {
 }
 .pt-\[2px\]{
   padding-top: 2px;
+}
+.pt-\[242px\]{
+  padding-top: 242px;
+}
+.pt-\[248px\]{
+  padding-top: 248px;
+}
+.pt-\[148px\]{
+  padding-top: 148px;
 }
 .text-center{
   text-align: center;
