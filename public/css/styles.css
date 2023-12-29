@@ -557,6 +557,9 @@ video {
 .mb-\[105px\]{
   margin-bottom: 105px;
 }
+.mb-\[56px\]{
+  margin-bottom: 56px;
+}
 .mb-\[74px\]{
   margin-bottom: 74px;
 }
@@ -864,6 +867,10 @@ video {
   --tw-border-opacity: 1;
   border-color: rgb(255 255 255 / var(--tw-border-opacity));
 }
+.bg-\[\#003566\]{
+  --tw-bg-opacity: 1;
+  background-color: rgb(0 53 102 / var(--tw-bg-opacity));
+}
 .bg-\[\#0086EE\]{
   --tw-bg-opacity: 1;
   background-color: rgb(0 134 238 / var(--tw-bg-opacity));
@@ -923,6 +930,26 @@ video {
 .bg-white{
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+.bg-\[\#ffc300\]{
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 195 0 / var(--tw-bg-opacity));
+}
+.bg-\[\#f77f00\]{
+  --tw-bg-opacity: 1;
+  background-color: rgb(247 127 0 / var(--tw-bg-opacity));
+}
+.bg-\[\#00b4d8\]{
+  --tw-bg-opacity: 1;
+  background-color: rgb(0 180 216 / var(--tw-bg-opacity));
+}
+.bg-\[\#708d81\]{
+  --tw-bg-opacity: 1;
+  background-color: rgb(112 141 129 / var(--tw-bg-opacity));
+}
+.bg-\[\#1b263b\]{
+  --tw-bg-opacity: 1;
+  background-color: rgb(27 38 59 / var(--tw-bg-opacity));
 }
 .bg-\[linear-gradient\(118deg\2c rgba\(0\2c 134\2c 238\2c 0\.63\)0\%\2c rgba\(0\2c 0\2c 0\2c 0\.54\)43\.8\%\)\2c url\(\'\.\.\/img\/porfolio\/1\.png\'\)\]{
   background-image: linear-gradient(118deg,rgba(0,134,238,0.63)0%,rgba(0,0,0,0.54)43.8%),url('../img/porfolio/1.png');
@@ -1080,6 +1107,9 @@ video {
 }
 .pr-4{
   padding-right: 1rem;
+}
+.pr-9{
+  padding-right: 2.25rem;
 }
 .pt-10{
   padding-top: 2.5rem;
@@ -1390,16 +1420,16 @@ body{
   --tw-content: 'VACANCY';
   content: var(--tw-content);
 }
-.after\:content-\[\'Vakansiya\'\]::after{
-  --tw-content: 'Vakansiya';
+.after\:content-\[\'Vakansiyalar\'\]::after{
+  --tw-content: 'Vakansiyalar';
+  content: var(--tw-content);
+}
+.after\:content-\[\'Xizmatlar\'\]::after{
+  --tw-content: 'Xizmatlar';
   content: var(--tw-content);
 }
 .after\:content-\[\'Yangiliklar\'\]::after{
   --tw-content: 'Yangiliklar';
-  content: var(--tw-content);
-}
-.after\:content-\[\'hizmatlar\'\]::after{
-  --tw-content: 'hizmatlar';
   content: var(--tw-content);
 }
 .after\:content-\[\'hodimlar\'\]::after{
@@ -1439,6 +1469,10 @@ body{
 }
 .hover\:\!bg-\[url\(\'\.\.\/img\/hodim\/img-1\.png\'\)\]:hover{
   background-image: url('../img/hodim/img-1.png') !important;
+}
+.hover\:text-\[\#0286EF\]:hover{
+  --tw-text-opacity: 1;
+  color: rgb(2 134 239 / var(--tw-text-opacity));
 }
 .hover\:shadow-custom:hover{
   --tw-shadow: 0px 0px 10px 2px #0186EF;
