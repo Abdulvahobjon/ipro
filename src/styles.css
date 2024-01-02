@@ -29,3 +29,19 @@ body{
   visibility: hidden;
 }
 
+.social-hover{
+  transition: all .3s;
+  filter: invert(0%);
+  border: 1px solid #1D1D1D;
+}
+.social-hover:hover{
+  filter: invert(100%);
+  /* border: 2px solid #fff; */
+}
+.contact-ing-animation{
+  transform: translateY(0px);
+  transition: all .3s;
+}
+.contact-ing-animation:hover{
+  transform: translateY(-12px);
+}

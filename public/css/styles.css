@@ -933,8 +933,32 @@ video {
 .bg-\[linear-gradient\(147deg\2c rgba\(37\2c 37\2c 39\2c 0\.00\)0\%\2c rgba\(2\2c 134\2c 239\2c 0\.20\)98\.75\%\)\2c url\(\'\.\.\/img\/hodim\/img-1\.png\'\)\]{
   background-image: linear-gradient(147deg,rgba(37,37,39,0.00)0%,rgba(2,134,239,0.20)98.75%),url('../img/hodim/img-1.png');
 }
+.bg-\[linear-gradient\(147deg\2c rgba\(37\2c 37\2c 39\2c 0\.00\)0\%\2c rgba\(2\2c 134\2c 239\2c 0\.20\)98\.75\%\)\2c url\(\'\.\.\/img\/hodim\/img-2\.avif\'\)\]{
+  background-image: linear-gradient(147deg,rgba(37,37,39,0.00)0%,rgba(2,134,239,0.20)98.75%),url('../img/hodim/img-2.avif');
+}
+.bg-\[linear-gradient\(147deg\2c rgba\(37\2c 37\2c 39\2c 0\.00\)0\%\2c rgba\(2\2c 134\2c 239\2c 0\.20\)98\.75\%\)\2c url\(\'\.\.\/img\/hodim\/img-3\.jpg\'\)\]{
+  background-image: linear-gradient(147deg,rgba(37,37,39,0.00)0%,rgba(2,134,239,0.20)98.75%),url('../img/hodim/img-3.jpg');
+}
+.bg-\[linear-gradient\(147deg\2c rgba\(37\2c 37\2c 39\2c 0\.00\)0\%\2c rgba\(2\2c 134\2c 239\2c 0\.20\)98\.75\%\)\2c url\(\'\.\.\/img\/hodim\/img-4\.jpg\'\)\]{
+  background-image: linear-gradient(147deg,rgba(37,37,39,0.00)0%,rgba(2,134,239,0.20)98.75%),url('../img/hodim/img-4.jpg');
+}
+.bg-\[linear-gradient\(147deg\2c rgba\(37\2c 37\2c 39\2c 0\.00\)0\%\2c rgba\(2\2c 134\2c 239\2c 0\.20\)98\.75\%\)\2c url\(\'\.\.\/img\/hodim\/img-6\.avif\'\)\]{
+  background-image: linear-gradient(147deg,rgba(37,37,39,0.00)0%,rgba(2,134,239,0.20)98.75%),url('../img/hodim/img-6.avif');
+}
+.bg-\[linear-gradient\(147deg\2c rgba\(37\2c 37\2c 39\2c 0\.00\)0\%\2c rgba\(2\2c 134\2c 239\2c 0\.20\)98\.75\%\)\2c url\(\'\.\.\/img\/hodim\/img-7\.jpg\'\)\]{
+  background-image: linear-gradient(147deg,rgba(37,37,39,0.00)0%,rgba(2,134,239,0.20)98.75%),url('../img/hodim/img-7.jpg');
+}
+.bg-\[linear-gradient\(147deg\2c rgba\(37\2c 37\2c 39\2c 0\.00\)0\%\2c rgba\(2\2c 134\2c 239\2c 0\.20\)98\.75\%\)\2c url\(\'\.\.\/img\/hodim\/img-8\.avif\'\)\]{
+  background-image: linear-gradient(147deg,rgba(37,37,39,0.00)0%,rgba(2,134,239,0.20)98.75%),url('../img/hodim/img-8.avif');
+}
+.bg-\[linear-gradient\(147deg\2c rgba\(37\2c 37\2c 39\2c 0\.00\)0\%\2c rgba\(2\2c 134\2c 239\2c 0\.20\)98\.75\%\)\2c url\(\'\.\.\/img\/hodim\/img-9\.jpg\'\)\]{
+  background-image: linear-gradient(147deg,rgba(37,37,39,0.00)0%,rgba(2,134,239,0.20)98.75%),url('../img/hodim/img-9.jpg');
+}
 .bg-cover{
   background-size: cover;
+}
+.bg-center{
+  background-position: center;
 }
 .object-contain{
   -o-object-fit: contain;
@@ -1312,6 +1336,23 @@ body{
 .wow:first-child {
   visibility: hidden;
 }
+
+.social-hover{
+  transition: all .3s;
+  filter: invert(0%);
+  border: 1px solid #1D1D1D;
+}
+.social-hover:hover{
+  filter: invert(100%);
+  /* border: 2px solid #fff; */
+}
+.contact-ing-animation{
+  transform: translateY(0px);
+  transition: all .3s;
+}
+.contact-ing-animation:hover{
+  transform: translateY(-12px);
+}
 .after\:absolute::after{
   content: var(--tw-content);
   position: absolute;
@@ -1445,6 +1486,31 @@ body{
 }
 .hover\:\!bg-\[url\(\'\.\.\/img\/hodim\/img-1\.png\'\)\]:hover{
   background-image: url('../img/hodim/img-1.png') !important;
+}
+.hover\:\!bg-\[url\(\'\.\.\/img\/hodim\/img-2\.avif\'\)\]:hover{
+  background-image: url('../img/hodim/img-2.avif') !important;
+}
+.hover\:\!bg-\[url\(\'\.\.\/img\/hodim\/img-3\.jpg\'\)\]:hover{
+  background-image: url('../img/hodim/img-3.jpg') !important;
+}
+.hover\:\!bg-\[url\(\'\.\.\/img\/hodim\/img-4\.jpg\'\)\]:hover{
+  background-image: url('../img/hodim/img-4.jpg') !important;
+}
+.hover\:\!bg-\[url\(\'\.\.\/img\/hodim\/img-6\.avif\'\)\]:hover{
+  background-image: url('../img/hodim/img-6.avif') !important;
+}
+.hover\:\!bg-\[url\(\'\.\.\/img\/hodim\/img-7\.jpg\'\)\]:hover{
+  background-image: url('../img/hodim/img-7.jpg') !important;
+}
+.hover\:\!bg-\[url\(\'\.\.\/img\/hodim\/img-8\.avif\'\)\]:hover{
+  background-image: url('../img/hodim/img-8.avif') !important;
+}
+.hover\:\!bg-\[url\(\'\.\.\/img\/hodim\/img-9\.jpg\'\)\]:hover{
+  background-image: url('../img/hodim/img-9.jpg') !important;
+}
+.hover\:text-\[\#0086EE\]:hover{
+  --tw-text-opacity: 1;
+  color: rgb(0 134 238 / var(--tw-text-opacity));
 }
 .hover\:text-\[\#0286EF\]:hover{
   --tw-text-opacity: 1;
@@ -1588,4 +1654,3 @@ body{
     transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
   }
 }
-
