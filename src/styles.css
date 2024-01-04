@@ -37,6 +37,7 @@ body{
 .social-hover:hover{
   filter: invert(100%);
   /* border: 2px solid #fff; */
+  overflow-x: auto;
 }
 .contact-ing-animation{
   transform: translateY(0px);
