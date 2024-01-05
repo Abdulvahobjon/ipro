@@ -418,9 +418,6 @@ video {
   --tw-backdrop-saturate:  ;
   --tw-backdrop-sepia:  ;
 }
-.\!visible{
-  visibility: visible !important;
-}
 .visible{
   visibility: visible;
 }
@@ -923,29 +920,11 @@ video {
 .bg-\[linear-gradient\(118deg\2c rgba\(0\2c 134\2c 238\2c 0\.63\)0\%\2c rgba\(0\2c 0\2c 0\2c 0\.54\)43\.8\%\)\2c url\(\'\.\.\/img\/porfolio\/1\.png\'\)\]{
   background-image: linear-gradient(118deg,rgba(0,134,238,0.63)0%,rgba(0,0,0,0.54)43.8%),url('../img/porfolio/1.png');
 }
-.bg-\[linear-gradient\(147deg\2c rgba\(37\2c 37\2c 39\2c 0\.00\)0\%\2c rgba\(2\2c 134\2c 239\2c 0\.20\)98\.75\%\)\2c url\(\'\.\.\/img\/hodim\/img-1\.png\'\)\]{
-  background-image: linear-gradient(147deg,rgba(37,37,39,0.00)0%,rgba(2,134,239,0.20)98.75%),url('../img/hodim/img-1.png');
+.bg-\[linear-gradient\(147deg\2c rgba\(37\2c 37\2c 39\2c 0\.00\)0\%\2c rgba\(2\2c 134\2c 239\2c 0\.20\)98\.75\%\)\2c url\(\'\.\.\/img\/hodim\/gril-3\.webp\'\)\]{
+  background-image: linear-gradient(147deg,rgba(37,37,39,0.00)0%,rgba(2,134,239,0.20)98.75%),url('../img/hodim/gril-3.webp');
 }
-.bg-\[linear-gradient\(147deg\2c rgba\(37\2c 37\2c 39\2c 0\.00\)0\%\2c rgba\(2\2c 134\2c 239\2c 0\.20\)98\.75\%\)\2c url\(\'\.\.\/img\/hodim\/img-2\.avif\'\)\]{
-  background-image: linear-gradient(147deg,rgba(37,37,39,0.00)0%,rgba(2,134,239,0.20)98.75%),url('../img/hodim/img-2.avif');
-}
-.bg-\[linear-gradient\(147deg\2c rgba\(37\2c 37\2c 39\2c 0\.00\)0\%\2c rgba\(2\2c 134\2c 239\2c 0\.20\)98\.75\%\)\2c url\(\'\.\.\/img\/hodim\/img-3\.jpg\'\)\]{
-  background-image: linear-gradient(147deg,rgba(37,37,39,0.00)0%,rgba(2,134,239,0.20)98.75%),url('../img/hodim/img-3.jpg');
-}
-.bg-\[linear-gradient\(147deg\2c rgba\(37\2c 37\2c 39\2c 0\.00\)0\%\2c rgba\(2\2c 134\2c 239\2c 0\.20\)98\.75\%\)\2c url\(\'\.\.\/img\/hodim\/img-4\.jpg\'\)\]{
-  background-image: linear-gradient(147deg,rgba(37,37,39,0.00)0%,rgba(2,134,239,0.20)98.75%),url('../img/hodim/img-4.jpg');
-}
-.bg-\[linear-gradient\(147deg\2c rgba\(37\2c 37\2c 39\2c 0\.00\)0\%\2c rgba\(2\2c 134\2c 239\2c 0\.20\)98\.75\%\)\2c url\(\'\.\.\/img\/hodim\/img-6\.avif\'\)\]{
-  background-image: linear-gradient(147deg,rgba(37,37,39,0.00)0%,rgba(2,134,239,0.20)98.75%),url('../img/hodim/img-6.avif');
-}
-.bg-\[linear-gradient\(147deg\2c rgba\(37\2c 37\2c 39\2c 0\.00\)0\%\2c rgba\(2\2c 134\2c 239\2c 0\.20\)98\.75\%\)\2c url\(\'\.\.\/img\/hodim\/img-7\.jpg\'\)\]{
-  background-image: linear-gradient(147deg,rgba(37,37,39,0.00)0%,rgba(2,134,239,0.20)98.75%),url('../img/hodim/img-7.jpg');
-}
-.bg-\[linear-gradient\(147deg\2c rgba\(37\2c 37\2c 39\2c 0\.00\)0\%\2c rgba\(2\2c 134\2c 239\2c 0\.20\)98\.75\%\)\2c url\(\'\.\.\/img\/hodim\/img-8\.avif\'\)\]{
-  background-image: linear-gradient(147deg,rgba(37,37,39,0.00)0%,rgba(2,134,239,0.20)98.75%),url('../img/hodim/img-8.avif');
-}
-.bg-\[linear-gradient\(147deg\2c rgba\(37\2c 37\2c 39\2c 0\.00\)0\%\2c rgba\(2\2c 134\2c 239\2c 0\.20\)98\.75\%\)\2c url\(\'\.\.\/img\/hodim\/img-9\.jpg\'\)\]{
-  background-image: linear-gradient(147deg,rgba(37,37,39,0.00)0%,rgba(2,134,239,0.20)98.75%),url('../img/hodim/img-9.jpg');
+.bg-\[linear-gradient\(147deg\2c rgba\(37\2c 37\2c 39\2c 0\.00\)0\%\2c rgba\(2\2c 134\2c 239\2c 0\.20\)98\.75\%\)\2c url\(\'\.\.\/img\/hodim\/man\.png\'\)\]{
+  background-image: linear-gradient(147deg,rgba(37,37,39,0.00)0%,rgba(2,134,239,0.20)98.75%),url('../img/hodim/man.png');
 }
 .bg-cover{
   background-size: cover;
@@ -1056,6 +1035,9 @@ video {
 .pb-32{
   padding-bottom: 8rem;
 }
+.pb-4{
+  padding-bottom: 1rem;
+}
 .pb-5{
   padding-bottom: 1.25rem;
 }
@@ -1064,9 +1046,6 @@ video {
 }
 .pb-7{
   padding-bottom: 1.75rem;
-}
-.pb-8{
-  padding-bottom: 2rem;
 }
 .pb-9{
   padding-bottom: 2.25rem;
@@ -1145,6 +1124,9 @@ video {
 }
 .text-center{
   text-align: center;
+}
+.text-right{
+  text-align: right;
 }
 .text-2xl{
   font-size: 1.5rem;
@@ -1404,10 +1386,6 @@ body{
   --tw-content: '';
   content: var(--tw-content);
 }
-.after\:content-\[\'Employees\'\]::after{
-  --tw-content: 'Employees';
-  content: var(--tw-content);
-}
 .after\:content-\[\'NEWS\'\]::after{
   --tw-content: 'NEWS';
   content: var(--tw-content);
@@ -1436,6 +1414,10 @@ body{
   --tw-content: 'Yangiliklar';
   content: var(--tw-content);
 }
+.after\:content-\[\'employees\'\]::after{
+  --tw-content: 'employees';
+  content: var(--tw-content);
+}
 .after\:content-\[\'hodimlar\'\]::after{
   --tw-content: 'hodimlar';
   content: var(--tw-content);
@@ -1448,12 +1430,12 @@ body{
   --tw-content: 'НОВОСТИ';
   content: var(--tw-content);
 }
-.after\:content-\[\'\421\43E\442\440\443\434\43D\438\43A\438\'\]::after{
-  --tw-content: 'Сотрудники';
-  content: var(--tw-content);
-}
 .after\:content-\[\'\423\421\41B\423\413\418\'\]::after{
   --tw-content: 'УСЛУГИ';
+  content: var(--tw-content);
+}
+.after\:content-\[\'\441\43E\442\440\443\434\43D\438\43A\438\'\]::after{
+  --tw-content: 'сотрудники';
   content: var(--tw-content);
 }
 .hover\:border-\[\#0086EE\]:hover{
@@ -1471,29 +1453,11 @@ body{
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
-.hover\:\!bg-\[url\(\'\.\.\/img\/hodim\/img-1\.png\'\)\]:hover{
-  background-image: url('../img/hodim/img-1.png') !important;
+.hover\:\!bg-\[url\(\'\.\.\/img\/hodim\/gril-3\.webp\'\)\]:hover{
+  background-image: url('../img/hodim/gril-3.webp') !important;
 }
-.hover\:\!bg-\[url\(\'\.\.\/img\/hodim\/img-2\.avif\'\)\]:hover{
-  background-image: url('../img/hodim/img-2.avif') !important;
-}
-.hover\:\!bg-\[url\(\'\.\.\/img\/hodim\/img-3\.jpg\'\)\]:hover{
-  background-image: url('../img/hodim/img-3.jpg') !important;
-}
-.hover\:\!bg-\[url\(\'\.\.\/img\/hodim\/img-4\.jpg\'\)\]:hover{
-  background-image: url('../img/hodim/img-4.jpg') !important;
-}
-.hover\:\!bg-\[url\(\'\.\.\/img\/hodim\/img-6\.avif\'\)\]:hover{
-  background-image: url('../img/hodim/img-6.avif') !important;
-}
-.hover\:\!bg-\[url\(\'\.\.\/img\/hodim\/img-7\.jpg\'\)\]:hover{
-  background-image: url('../img/hodim/img-7.jpg') !important;
-}
-.hover\:\!bg-\[url\(\'\.\.\/img\/hodim\/img-8\.avif\'\)\]:hover{
-  background-image: url('../img/hodim/img-8.avif') !important;
-}
-.hover\:\!bg-\[url\(\'\.\.\/img\/hodim\/img-9\.jpg\'\)\]:hover{
-  background-image: url('../img/hodim/img-9.jpg') !important;
+.hover\:\!bg-\[url\(\'\.\.\/img\/hodim\/man\.png\'\)\]:hover{
+  background-image: url('../img/hodim/man.png') !important;
 }
 .hover\:text-\[\#0086EE\]:hover{
   --tw-text-opacity: 1;
